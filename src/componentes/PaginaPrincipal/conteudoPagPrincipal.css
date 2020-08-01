@@ -1,0 +1,43 @@
+#IMGSimpsonsSofa{
+    height: 30%;
+    width: 30%;
+}
+
+#Springfield{
+    border-radius: 13em/3em;
+}
+
+.container5em{
+    margin: 5em;
+}
+
+.containerTop5em{
+    margin-top: 5em;
+}
+
+.personagens{
+    height: 8em;
+    width: 8em;
+    display: inline-block;
+}
+
+.personagens a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#containerPersonagens{
+    margin: auto; 
+    text-align: center;
+}
+
+.face{
+    width: 80%;
+    height: 90%;
+    border: solid 0.2em #1d294f;
+    border-radius: 13em/3em;
+
+}
+
+

@@ -1,0 +1,53 @@
+
+.autoFalante{
+    margin: 50px 20px 20px 20px;
+    padding: 10px; 
+    background-color: cornflowerblue; 
+    height: 200px;
+}
+
+
+.imagemPrincipal{
+    border: 20px solid #1d294f;
+    border-radius: 13em/3em;
+    
+}
+
+.Tv{
+    background-color: #963b8d; 
+    padding: 30px;
+    border-radius: 13em/3em;
+}
+
+.botaoTv{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #27ab78;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.retanguloBotaoTv{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10%;
+    margin: auto;
+}
+
+
+.retanguloEscuroTv{
+    width: 10px;
+    height: 200px;
+    background-color: #1d294f;
+    margin: 0px 10px 0px 10px;
+}
+.rotacionar45{
+    transform: rotate(45deg);
+}
+
+.rotacionar315{
+    transform: rotate(-45deg);
+}
+
