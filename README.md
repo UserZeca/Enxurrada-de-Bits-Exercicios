@@ -78,7 +78,7 @@ Aqui podemos identificar as tags que você deverá saber ao estar fazendo essa p
 
 *Obs: Perceba a diferença entre a ordem de como os atributos forma colocados na primeira e na segunda tags link(marcadas de vermelho). Bom essa diferença não importa para o seu funcionamento, porém é uma boa prática manter um padrão.*
 
-Agora descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada ***section***. Por hora vamos ignorar essa parte do código, pois ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
+Agora, descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada ***section***. Por hora vamos ignorar essa parte do código, pois ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
 
 ![Gif mostrando como ocultar parte do código pelo Editor de Códigos VS code](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tag2.gif)
 
@@ -112,7 +112,17 @@ Feito isso vamos a próxima parte do código. Aqui, você deverá saber o que s�
 
 ![Parte do código, terceira section do arquivo index ](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/SegundaSectionDoIndex.png)
 
-Novamente faremos alterações no código, pórem, agora você verá o resultado final e tentará replicá-lo :
+Agora você irá realizar alterações no código, vendo o resultado final, assim tentar replicá-lo :
 
+![Segunda Edição de Texto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/segundaEdi%C3%A7%C3%A3oDeTexto.png)
 
+Na próxima ***section*** você irá identificar as tag necessárias, modificar seu conteúdo, para que o resultado seja o seguinte:
 
+![Terceira Edição de Texto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/TerceiraEdi%C3%A7%C3%A3oDeTexto.png)
+
+A ultima ***section*** desse arquivo, possui imagens do personagens principais, e cada uma dessas imagens também é um link. Mas como assim um link?! Bom, o que está acontencendo 
+é que o conteúdo dentro da **a** , no caso é uma imagem, está recebendo as caracteristicas da **tag pai**, que é justamente a tag **a**.
+
+![Link na imagem,código](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/linkNaImagemCode.png)
+
+Tá, mas porque precisamos saber disso agora?! Então, como vimos que imagens também podem se tornar um link, então também podemos usar um link interno que aponte pra ela, ou seja fazer com que eu seja levado aquela imagem ao clicar nesse link.
