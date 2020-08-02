@@ -61,7 +61,7 @@ Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora 
 + Selecione o arquivo **index.html**
 
 Ao abrir esse arquivo, você pode se assutar um pouco com a quantidade de coisa. Mas calma! Inicialmente você não irá precisar saber de todo que está no código. 
-Enfim, vamos primeiro identificar as tags no código que aprendemos na aula 1 (não se preocupe com as que não estão marcadas em vermelho):  
+Enfim, vamos primeiro identificar as tags no código que aprendemos na aula 1 (*não se preocupe com as que **não** estão marcadas em vermelho*):  
 
 ![Foto mostrando as tags a serem análizadas](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags1.png)
 
@@ -78,6 +78,7 @@ Chegando a próxima tag ***section*** podemos ver dentro dela, tags que já conh
 *obs: Não se precupe agora com o que está em amarelo na tag img, e com tags que ainda não abordamos em aula*
 
 ![Segunda Section do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
+
 
 
 
