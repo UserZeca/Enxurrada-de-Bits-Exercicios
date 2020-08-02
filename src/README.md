@@ -28,5 +28,9 @@ Como o arquivo está zipado(compactado), será necessário fazer a descompactaç
 
 ### Entendendo a Estrutura do Projeto
 
-Até aqui, o que fizemos foi somente baixar o projeto para a nossa máquina. Mas porque fizemos isso? Bom, no desenvolvimento de vários projetos nem sempre iremos começá-lo do zero, às vezes teremos que dar continuidade a algo que alguém já começou, ou fazer alterações pontuais e melhorias. E é exatamente o que iremos fazer aqui.
+Até aqui, o que fizemos foi somente baixar o projeto para a nossa máquina. Mas porque fizemos isso?! Bom, no desenvolvimento de vários projetos nem sempre iremos começá-lo do zero, às vezes teremos que dar continuidade a algo que alguém já foi iniciado, ou fazer alterações pontuais e melhorias. E é exatamente o que iremos fazer aqui.
 
+#### Do que o projeto se trata?
+O projeto em sí é uma "mine Wikipedia dos Simpsons", e nela irá conter informações dos 5 integrantes da familia Simpsons. 
+
+![Pagina Principal do Projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/paginaSimpsons.gif)
