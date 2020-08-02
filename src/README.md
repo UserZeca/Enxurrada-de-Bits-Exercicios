@@ -19,8 +19,7 @@ navegadores.
 
 Bom a primeira coisa a se fazer, é baixar o projeto para o seu computador. Pra realizar o download, procure o seguinte botão **Código** (*ou Code, se o idioma do site estiver em inglês*).
 
-
-
+![Gif mostrando como selecionar o botão de download do repositório](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/downloadRepositorioGitHub.gif)
 
 
 
