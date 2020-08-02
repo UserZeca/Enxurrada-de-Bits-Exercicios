@@ -34,3 +34,6 @@ Até aqui, o que fizemos foi somente baixar o projeto para a nossa máquina. Mas
 O projeto em sí é uma "mine Wikipedia dos Simpsons", e nela irá conter informações dos 5 integrantes da familia Simpsons. 
 
 ![Pagina Principal do Projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/paginaSimpsons.gif)
+
+A página principal, inicialmente está como é mostrado acima, porém ao decorrer das atividades ela será modificada.
+*obs: As páginas do projeto ainda não são resposivas, por motivos didáticos*
