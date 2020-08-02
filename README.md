@@ -89,4 +89,18 @@ Chegando a próxima tag ***section*** podemos ver dentro dela, tags que já conh
 ![Segunda Section do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
 
 Agora iremos fazer pequenas alterações nesse trecho de código. 
-+ Identifique a tag de paragrafo
++ Identifique a tag de parágrafo
++ Deixe o fundo nome do criador do Simpsons, "Matt Groening", destacado. (*Dica: use a tag **mark***) 
++ Deixe as seguintes partes do texto em negrito: (*Dica: use a tag **strong***)
+    - "Homer"
+    - "Marge"
+    - "Bart"
+    - "Lisa"
+    - "Maggie"
++ Vá até a página index.html,aberta anteoriormente no navegador, e recarregue a página. (*Dica: utilize a tecla **F5***)
+
+O resultado deve ser algo como:
+
+![Primeira Edição De Texto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/primeiraEdi%C3%A7%C3%A3oDeTexto.png)
+
+ 
