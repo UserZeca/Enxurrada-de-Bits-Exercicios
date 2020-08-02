@@ -1,6 +1,6 @@
 # Enxurrada-de-Bits-Exercicios
 
-Olá :) ! Bem vindo as práticas do **Curso de Programação Web**.
+Olá :) ! Bem vindo(a) as práticas do **Curso de Programação Web**.
 Durante essas práticas, você irá desenvolver um projeto, e entender mais de conteúdos abordados na aula.
 
 ## Aula 1
@@ -36,7 +36,7 @@ O projeto em sí é uma "mine Wikipedia dos Simpsons", e nela irá conter inform
 
 A página principal, inicialmente está como é mostrado acima, porém ao decorrer das atividades ela será modificada.
 
-*obs: As páginas do projeto ainda não são resposivas, por motivos didáticos.*
+*obs.: As páginas do projeto ainda não são resposivas, por motivos didáticos.*
 
 #### Como o projeto foi organizado?
 
@@ -46,7 +46,7 @@ O projeto foi organizado da seguinte forma:
 
 + **src** - Pasta(diretório) Raiz que possui todos os codigos, imagens, etc.
 + **componentes** - Pasta(*diretório*) que possui arquivos de estilo relacionados a um elemento especifico da página. ***Não se preocupe com ela, pois ela não é o foco aqui***.
-+ **img** - Essa pasta possui as imagens que iremos utilizar para construir as páginas. *obs: Na maioria das vezes esse pasta fica por padrão dentro de uma pasta chamada asserts, não é o caso aqui.*
++ **img** - Essa pasta possui as imagens que iremos utilizar para construir as páginas. *obs.: Na maioria das vezes esse pasta fica por padrão dentro de uma pasta chamada asserts, não é o caso aqui.*
 + **paginas** - Dentro dessa pasta termos todas as sub páginas, ou seja todas as páginas que não são a página **home**(principal).
 + **index.html** - Arquivo HTML, que possui o código da página **home**(principal).
 + **styles.css** - Arquivo CSS, que possui todo os estilos da página home. ***Não se preocupe com ele ainda***.
@@ -56,6 +56,8 @@ O projeto foi organizado da seguinte forma:
 
 Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora "mão na massa".
 
++ Abra no navegador o arquivo index.html. Pra fazer isso, vá até a pasta do projeto que baixamos,procure pelo arquivo index.html, e dê um click duplo sobre ele.
+Enxurrada-de-Bits-Exercicios-master > src > index.html 
 
 + Abra o projeto no seu Editor de Código(***Recomendo fortemente o VS Code***), clicando em File > Open Folder .
 
@@ -66,8 +68,8 @@ Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora 
 
 ![Navegando Pelas pastas do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/NavengadoPelaPastaDoProjeto.gif)
 
+*obs.:Ao abrir esse arquivo, você pode se assutar um pouco com a quantidade de coisa. **Mas calma!** Inicialmente você não irá precisar saber de todo que está no código.*
 
-Ao abrir esse arquivo, você pode se assutar um pouco com a quantidade de coisa. Mas calma! Inicialmente você não irá precisar saber de todo que está no código. 
 Enfim, vamos primeiro identificar as tags no código que aprendemos na aula 1 (*não se preocupe com as que **não** estão marcadas em vermelho*):  
 
 ![Foto mostrando as tags a serem análizadas](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags1.png)
@@ -82,7 +84,7 @@ Agora descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por
 
 Chegando a próxima tag ***section*** podemos ver dentro dela, tags que já conhecemos. Essas tags estão identificadas em vermelho, como mostrado abaixo:
 
-*obs: Não se precupe agora com o que está em amarelo na tag img, e com tags que ainda não abordamos em aula*
+*obs: Não se precupe agora com o que está em amarelo na tag img, e com as tags que ainda não abordamos em aula.*
 
 ![Segunda Section do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
 
