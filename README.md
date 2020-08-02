@@ -68,3 +68,7 @@ Enfim, vamos primeiro identificar as tags no código que aprendemos na aula 1 (n
 Aqui podemos identificar as tags que você deverá saber ao estar fazendo essa prática. Ou seja, caso ainda esteja com dúvida de como essas tags funcionam, volte e reveja os materiais referentes a aula. 
 
 **Obs: Perceba a diferença entre a ordem de como os atributos forma colocados na primeira e na segunda tags link(marcadas de vermelho). Bom essa diferença não importa para o seu funcionamento, porém é uma boa prática manter um padrão.**
+
+Agora descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada ***section*** , por hora vamos ignorar essa parte do código, porque ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
+
+![](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tag2.gif)
