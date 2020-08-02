@@ -99,8 +99,20 @@ Agora iremos fazer pequenas alterações nesse trecho de código.
     - "Maggie"
 + Vá até a página index.html,aberta anteoriormente no navegador, e recarregue a página. (*Dica: utilize a tecla **F5***)
 
+***obs: Não se esqueça de salvar as mudanças do seu projeto, "control+s" é sempre seu amigo :).***
+
 O resultado deve ser algo como:
 
 ![Primeira Edição De Texto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/primeiraEdi%C3%A7%C3%A3oDeTexto.png)
 
- 
+
+Feito isso vamos a próxima parte do código. Aqui, você deverá saber o que são as tags marcadas de vermelho.
+
+*Obs.: O que está de amarelo, deve ser ignorado por enquanto.*
+
+![Parte do código, terceira section do arquivo index ](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/SegundaSectionDoIndex.png)
+
+Novamente faremos alterações no código, pórem, agora você verá o resultado final e tentará replicá-lo :
+
+
+
