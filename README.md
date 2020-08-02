@@ -71,4 +71,11 @@ Aqui podemos identificar as tags que você deverá saber ao estar fazendo essa p
 
 Agora descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada ***section*** , por hora vamos ignorar essa parte do código, porque ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
 
-![](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tag2.gif)
+![Gif mostrando como ocultar parte do código pelo Editor de Códigos VS code](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tag2.gif)
+
+Chegando a próxima tag ***section*** podemos ver dentro dela, tags das quais já conhecemos, como mostrado abaixo em vermelho(não se precupe com o que está em amarelo da tag img): 
+
+![](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
+
+
+
