@@ -4,11 +4,11 @@ Olá :) ! Bem vindo as práticas do **Curso de Programação Web**.
 Durante essas práticas, você irá desenvolver um projeto, e entender mais de conteúdos abordados na aula.
 
 ## Aula 1
- Nessa prática você irá aprender a:
+ Nessa prática você irá:
 
 + Fazer donwload do projeto que está no gitHub (utilizando a interface do site).
 + Entender a organização do projeto
-+ Aprender a identificar as tags em um documento HTML.
++ Identificar as tags que aprendemos dentro do documento HTML.
 + Inspencionar elementos atráves de ferramentas dos 
 navegadores.
 + A usar todas as tags ensinadas durante a aula 1.
