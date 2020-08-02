@@ -17,7 +17,7 @@ navegadores.
 
 ### Fazendo downloand do projeto
 
-Bom a primeira coisa a se fazer, é baixar o projeto para o seu computador. Pra realizar o download, procure o seguinte botão **Código** (*ou Code, se o idioma do site estiver em inglês*).
+Bom a primeira coisa a se fazer, é baixar o projeto para o seu computador. Pra realizar o download, procure o seguinte botão **Código** (*ou Code, se o idioma do site estiver em inglês*), click em cima de, e selecione a opção **Download ZIP**.
 
 ![Gif mostrando como selecionar o botão de download do repositório](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/downloadRepositorioGitHub.gif)
 
