@@ -21,6 +21,11 @@ Bom a primeira coisa a se fazer, é baixar o projeto para o seu computador. Pra 
 
 ![Gif mostrando como selecionar o botão de download do repositório](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/downloadRepositorioGitHub.gif)
 
+Como o arquivo está zipado(compactado), será necessário fazer a descompactação. Logo quando o download for completado, siga os seguintes passos abaixo:
+
+![](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/descompactandoProjeto.gif)
 
 
+### Entendendo a Estrutura do Projeto
 
+Até aqui, o que fizemos foi somente baixar o projeto para a nossa máquina. Mas porque fizemos isso? Bom, no desenvolvimento de vários projetos nem sempre iremos começa-lo do zero às vezes teremos que dar continuidade a algo que alguém já começou, ou fazer alterações pontuais e melhorias. E é exatamente o que iremos fazer aqui.
