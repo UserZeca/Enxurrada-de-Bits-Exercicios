@@ -9,7 +9,7 @@ Durante essas práticas, você irá desenvolver um projeto, e entender mais de c
 + Fazer donwload do projeto que está no gitHub (utilizando a interface do site).
 + A organização do projeto
 + Identificar as tags que aprendemos dentro do documento HTML.
-+ Inspencionar elementos atráves de ferramentas dos 
++ Inspecionar elementos atráves de ferramentas dos 
 navegadores.
 + Utilizar tags ensinadas durante a aula 1.
 
@@ -52,7 +52,7 @@ O projeto foi organizado da seguinte forma:
 + **styles.css** - Arquivo CSS, que possui todo os estilos da página home. ***Não se preocupe com ele ainda***.
 
 
-## Identificando, inspercionando e adicionando Tags
+## Identificando, inspecionando e adicionando Tags
 
 Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora "mão na massa".
 
@@ -88,4 +88,5 @@ Chegando a próxima tag ***section*** podemos ver dentro dela, tags que já conh
 
 ![Segunda Section do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
 
-
+Agora iremos fazer pequenas alterações nesse trecho de código. 
++ Identifique a tag de paragrafo
