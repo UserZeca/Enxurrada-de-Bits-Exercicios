@@ -22,7 +22,7 @@ Bom a primeira coisa a se fazer, é baixar o projeto para o seu computador. Pra 
 
 Como o arquivo está zipado(compactado), será necessário fazer a descompactação(*iremos utilizar o programa gratuito **WINRAR***). Logo quando o download for completado, siga os seguintes passos abaixo:
 
-![](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/descompactandoProjeto.gif)
+![Gif mostrando como fazer a descompactação](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/descompactandoProjeto.gif)
 
 
 ### Entendendo a Estrutura do Projeto
@@ -32,7 +32,7 @@ Até aqui, o que fizemos foi somente baixar o projeto para a nossa máquina. Mas
 #### Do que o projeto se trata?
 O projeto em sí é uma "mine Wikipedia dos Simpsons", e nela irá conter informações dos 5 integrantes da familia Simpsons. 
 
-![Pagina Principal do Projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/paginaSimpsons.gif)
+![Gif mostrando a página principal do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/paginaSimpsons.gif)
 
 A página principal, inicialmente está como é mostrado acima, porém ao decorrer das atividades ela será modificada.
 
@@ -42,11 +42,29 @@ A página principal, inicialmente está como é mostrado acima, porém ao decorr
 
 O projeto foi organizado da seguinte forma:
 
-![](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/estruturaBasicaDosArquivos.png)
+![Foto mostrando a estrutura do projeto, organização de diretórios](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/estruturaBasicaDosArquivos.png)
 
-+ **src** - Diretório Raiz que possui todos os codigos, imagens, etc.
++ **src** - Pasta(diretório) Raiz que possui todos os codigos, imagens, etc.
 + **componentes** - Pasta(*diretório*) que possui arquivos de estilo relacionados a um elemento especifico da página. ***Não se preocupe com ela, pois ela não é o foco aqui***.
 + **img** - Essa pasta possui as imagens que iremos utilizar para construir as páginas. *obs: Na maioria das vezes esse pasta fica por padrão dentro de uma pasta chamada asserts, não é o caso aqui.*
 + **paginas** - Dentro dessa pasta termos todas as sub páginas, ou seja todas as páginas que não são a página **home**(principal).
 + **index.html** - Arquivo HTML, que possui o código da página **home**(principal).
 + **styles.css** - Arquivo CSS, que possui todo os estilos da página home. ***Não se preocupe com ele ainda***.
+
+
+## Identificando tags
+
+Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora "mão na massa".
+
++ Abra o projeto no seu Editor de Código(***Recomendo fortemente o VS Code***)
++ Abra a pasta **src**.
++ Selecione o arquivo **index.html**
+
+Ao abrir esse arquivo, você pode se assutar um pouco com a quantidade de coisa. Mas calma! Inicialmente você não irá precisar saber de todo que está no código. 
+Enfim, vamos primeiro identificar as tags no código que aprendemos na aula 1 (não se preocupe com as que não estão marcadas em vermelho):  
+
+![Foto mostrando as tags a serem análizadas](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags1.png)
+
+Aqui podemos identificar as tags que você deverá saber ao estar fazendo essa prática. Ou seja, caso ainda esteja com dúvida de como essas tags funcionam, volte e reveja os materiais referentes a aula. 
+
+**Obs: Perceba a diferença entre a ordem de como os atributos forma colocados na primeira e na segunda tags link(marcadas de vermelho). Bom essa diferença não importa para o seu funcionamento, porém é uma boa prática manter um padrão.**
