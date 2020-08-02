@@ -56,9 +56,16 @@ O projeto foi organizado da seguinte forma:
 
 Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora "mão na massa".
 
-+ Abra o projeto no seu Editor de Código(***Recomendo fortemente o VS Code***)
-+ Abra a pasta **src**.
+
++ Abra o projeto no seu Editor de Código(***Recomendo fortemente o VS Code***), clicando em File > Open Folder .
+
+![Abrindo Projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/abrindoProjeto.gif)
+
++ Vá até pasta **src**.
 + Selecione o arquivo **index.html**
+
+![Navegando Pelas pastas do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/NavengadoPelaPastaDoProjeto.gif)
+
 
 Ao abrir esse arquivo, você pode se assutar um pouco com a quantidade de coisa. Mas calma! Inicialmente você não irá precisar saber de todo que está no código. 
 Enfim, vamos primeiro identificar as tags no código que aprendemos na aula 1 (*não se preocupe com as que **não** estão marcadas em vermelho*):  
@@ -78,7 +85,5 @@ Chegando a próxima tag ***section*** podemos ver dentro dela, tags que já conh
 *obs: Não se precupe agora com o que está em amarelo na tag img, e com tags que ainda não abordamos em aula*
 
 ![Segunda Section do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
-
-
 
 
