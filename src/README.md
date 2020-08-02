@@ -36,4 +36,16 @@ O projeto em sí é uma "mine Wikipedia dos Simpsons", e nela irá conter inform
 ![Pagina Principal do Projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/paginaSimpsons.gif)
 
 A página principal, inicialmente está como é mostrado acima, porém ao decorrer das atividades ela será modificada.
-*obs: As páginas do projeto ainda não são resposivas, por motivos didáticos*
+
+*obs: As páginas do projeto ainda não são resposivas, por motivos didáticos.*
+
+#### Como o projeto foi organizado?
+
+O projeto foi organizado da seguinte forma:
+
++ **src** - Diretório Raiz que possui todos os codigos, imagens, etc.
++ **componentes** - Pasta(*diretório*) que possui arquivos de estilo relacionados a um elemento especifico da página. ***Não se preocupe com ela, pois ela não é o foco aqui***.
++ **img** - Essa pasta possui as imagens que iremos utilizar para construir as páginas. *obs: Na maioria das vezes esse pasta fica por padrão dentro de uma pasta chamada asserts, não é o caso aqui.*
++ **paginas** - Dentro dessa pasta termos todas as sub páginas, ou seja todas as páginas que não são a página **home**(principal).
++ **index.html** - Arquivo HTML, que possui o código da página **home**(principal).
++ **styles.css** - Arquivo CSS, que possui todo os estilos da página home. ***Não se preocupe com ele ainda***.
