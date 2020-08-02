@@ -77,5 +77,5 @@ Chegando a pr√≥xima tag ***section*** podemos ver dentro dela, tags das quais j√
 
 ![](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
 
-
+... 
 
