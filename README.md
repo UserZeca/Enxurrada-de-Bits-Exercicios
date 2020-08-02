@@ -52,7 +52,7 @@ O projeto foi organizado da seguinte forma:
 + **styles.css** - Arquivo CSS, que possui todo os estilos da página home. ***Não se preocupe com ele ainda***.
 
 
-## Identificando tags
+## Identificando, inspercionando e adicionando Tags
 
 Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora "mão na massa".
 
@@ -77,7 +77,7 @@ Chegando a próxima tag ***section*** podemos ver dentro dela, tags que já conh
 
 *obs: Não se precupe agora com o que está em amarelo na tag img, e com tags que ainda não abordamos em aula*
 
-![](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
+![Segunda Section do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
 
-... 
+
 
