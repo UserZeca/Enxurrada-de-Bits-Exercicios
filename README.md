@@ -67,13 +67,15 @@ Enfim, vamos primeiro identificar as tags no código que aprendemos na aula 1 (n
 
 Aqui podemos identificar as tags que você deverá saber ao estar fazendo essa prática. Ou seja, caso ainda esteja com dúvida de como essas tags funcionam, volte e reveja os materiais referentes a aula. 
 
-**Obs: Perceba a diferença entre a ordem de como os atributos forma colocados na primeira e na segunda tags link(marcadas de vermelho). Bom essa diferença não importa para o seu funcionamento, porém é uma boa prática manter um padrão.**
+*Obs: Perceba a diferença entre a ordem de como os atributos forma colocados na primeira e na segunda tags link(marcadas de vermelho). Bom essa diferença não importa para o seu funcionamento, porém é uma boa prática manter um padrão.*
 
-Agora descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada ***section*** , por hora vamos ignorar essa parte do código, porque ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
+Agora descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada ***section***. Por hora vamos ignorar essa parte do código, pois ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
 
 ![Gif mostrando como ocultar parte do código pelo Editor de Códigos VS code](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tag2.gif)
 
-Chegando a próxima tag ***section*** podemos ver dentro dela, tags das quais já conhecemos, como mostrado abaixo em vermelho(não se precupe com o que está em amarelo da tag img): 
+Chegando a próxima tag ***section*** podemos ver dentro dela, tags que já conhecemos. Essas tags estão identificadas em vermelho, como mostrado abaixo:
+
+*obs: Não se precupe agora com o que está em amarelo na tag img, e com tags que ainda não abordamos em aula*
 
 ![](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
 
