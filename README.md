@@ -125,6 +125,8 @@ A ultima ***section*** desse arquivo, possui imagens do personagens principais, 
 
 ![Link na imagem,código](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/linkNaImagemCode.png)
 
-Tá, mas porque precisamos saber disso agora?! Então, como vimos que imagens também podem se tornar um link, logo também podemos usar um link interno que aponte pra ela, ou seja fazer com que o usuário seja levado aquela imagem ao clicar nesse link.
-Beleza, mas como fazemos isso?! Pois bem, visualize a imagem acima, veja que a tag **a**, possui um atributo chamado *name*. Esse atributo, no nosso caso, guardará um nome, nome este que será nossa **etiqueta**, ou seja qualquer outro link que tiver esse nome como endereço de destino, será derecionada a esse ponto. E para isso precisamos ir até este link, e fazer com que ele aponte para nossa etiqueta.
+Bom sua missão agora é adicionar um link interno, a cada uma dessas fotos. Volte na primeira tag de parágrafo do site, e coloque os links internos no nome de cada personagem (inclusive foi esse nomes, nós já colocamos em negrito). *E lembre-se, o atributo **href** nesse caso, deve ser ( #atributo name do seu link destino). Por exemplo, na imagem acima o atributo name do link destino é **homer**, logo o link de ponto de partida deve ter o atributo href="#homer".*
+
+
+
 
