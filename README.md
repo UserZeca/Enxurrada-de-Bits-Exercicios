@@ -149,10 +149,10 @@ Os navegadores possuem também, uma ferramenta que permite inspecionar elementos
 
 Enfim, você chegou ao final da primeira prática.
 
-- [X] Donwload do projeto que está no gitHub (utilizando a interface do site).
-- [X] Entender a organização do projeto
-- [X] Identificou as tags que aprendemos.
-- [X] Inspecionou elementos atráves de ferramentas dos 
-navegadores.
-- [X] Utilizou tags ensinadas durante a aula 1.
+- [X] [Donwload do projeto que está no gitHub (utilizando a interface do site)].(#fazendo-downloand-do-projeto)
+- [X] [Entender a organização do projeto.](#entendendo-a-estrutura-do-projeto)
+- [X] [Identificou as tags que aprendemos.](#identificando-inspecionando-e-adicionando-tags)
+- [X] [Inspecionou elementos atráves de ferramentas dos 
+navegadores.](#identificando-inspecionando-e-adicionando-tags)
+- [X] [Utilizou tags ensinadas durante a aula 1.](#identificando-inspecionando-e-adicionando-tags)
 
