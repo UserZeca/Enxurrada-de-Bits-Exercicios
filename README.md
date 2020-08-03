@@ -6,13 +6,12 @@ Durante essas práticas, você irá desenvolver um projeto, e entender mais de c
 ## Aula 1
  Nessa prática você irá aprender a:
 
-- [ ] Fazer donwload do projeto que está no gitHub (utilizando a interface do site).
-- [ ] A organização do projeto
-- [ ] Identificar as tags que aprendemos.
-- [ ] Inspecionar elementos atráves de ferramentas dos 
-navegadores.
-- [ ] Utilizar tags ensinadas durante a aula 1.
-
+- [ ] [Fazer donwload do projeto que está no gitHub (utilizando a interface do site)](#fazendo-downloand-do-projeto).
+- [ ] [A organização do projeto](#entendendo-a-estrutura-do-projeto)
+- [ ] [Identificar as tags que aprendemos.](#identificando-inspecionando-e-adicionando-tags)
+- [ ] [Inspecionar elementos atráves de ferramentas dos 
+navegadores.](#identificando-inspecionando-e-adicionando-tags)
+- [ ] [Utilizar tags ensinadas durante a aula 1.](#identificando-inspecionando-e-adicionando-tags)
 
 ### Fazendo downloand do projeto
 
