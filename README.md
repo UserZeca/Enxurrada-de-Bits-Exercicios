@@ -6,12 +6,12 @@ Durante essas práticas, você irá desenvolver um projeto, e entender mais de c
 ## Aula 1
  Nessa prática você irá aprender a:
 
-+ Fazer donwload do projeto que está no gitHub (utilizando a interface do site).
-+ A organização do projeto
-+ Identificar as tags que aprendemos dentro do documento HTML.
-+ Inspecionar elementos atráves de ferramentas dos 
+- [ ] Fazer donwload do projeto que está no gitHub (utilizando a interface do site).
+- [ ] A organização do projeto
+- [ ] Identificar as tags que aprendemos.
+- [ ] Inspecionar elementos atráves de ferramentas dos 
 navegadores.
-+ Utilizar tags ensinadas durante a aula 1.
+- [ ] Utilizar tags ensinadas durante a aula 1.
 
 
 ### Fazendo downloand do projeto
@@ -84,7 +84,7 @@ Agora, descendo um pouco mais, avistamos um conjunto grande de tags agrupadas po
 
 Chegando a próxima tag ***section*** podemos ver dentro dela, tags que já conhecemos. Essas tags estão identificadas em vermelho, como mostrado abaixo:
 
-*obs: Não se precupe agora com o que está em amarelo na tag img, e com as tags que ainda não abordamos em aula.*
+*obs: Não se preocupe agora com o que está em amarelo na tag img, e com as tags que ainda não abordamos em aula.*
 
 ![Segunda Section do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tags3.png)
 
@@ -125,8 +125,35 @@ A ultima ***section*** desse arquivo, possui imagens do personagens principais, 
 
 ![Link na imagem,código](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/linkNaImagemCode.png)
 
-Bom sua missão agora é adicionar um link interno, a cada uma dessas fotos. Volte na primeira tag de parágrafo do site, e coloque os links internos no nome de cada personagem (inclusive foi esse nomes, nós já colocamos em negrito). *E lembre-se, o atributo **href** nesse caso, deve ser ( #atributo name do seu link destino). Por exemplo, na imagem acima o atributo name do link destino é **homer**, logo o link de ponto de partida deve ter o atributo href="#homer".*
+Bom, sua missão agora é adicionar um **link interno**, a cada uma dessas fotos. Volte na **primeira tag de parágrafo** do site, e coloque os links internos no nome de cada personagem (inclusive já colocamos estes nomes em negrito, anteriormente). *E lembre-se, o atributo **href** nesse caso, deve ser ( #atributo name do seu link destino). Por exemplo, na imagem acima o atributo name do link destino é **homer**, logo o link de ponto de partida deve ter o atributo href="#homer".*
 
+O resultado deve ser algo como:
+![Resultado de adicões de links internos a página](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/VisualizandoLinkInterno.gif)
 
+Por último, iremos visualizar as nossas mundaças, utilizando ferramentas de desenvolvimento que os navegadores possuem.
+Para abrir a ferramenta pressione:
 
++ F12, caso esteja usando o **Google Chrome**
++ Ctrl + Shift + K, caso esteja usando o **FireFox**
+
+Feito isso, o navegador irá abrir uma um caixa de funcionalidades. *obs.: As ferramentas dos dois navegadores são bem parecidas*
+
+![Mostrando Ferramentas do Navegador](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoFerramentaDeDesenvolvedor.png)
+
+Perceba que a parte que está dentro do quadrado vermelho, são as **sections** do nosso código, e que a circulada em verde foi a primeira que alteramos nessa prática.
+Os navegadores possuem também, uma ferramenta que permite inspecionar elementos. Pra utiliza-la, faça como a demostração abaixo:
+
+![Mostrando como se utiliza o Inspetor de elementos do navegador](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoOInspetordeElementos.gif)
+
++ Observe que ao passar o mouse por cima de uma parte do codigo na aba **Elements** a parte em que estamos com o mouse em cima fica azul, assim como a sua respectiva parte na nossa página. 
++ Acima também podemos ver que ao selecionarmos a ferramenta de inspecionar(a com icone de setinha em cima de uma quadrado), temos a liberdade de selecionar qualquer elemento da tela, clicando nele. No exemplp acima, podemos ver que ao selecionarmos o nome de Matt Groening(com inspetor acionado), a aba de **Elements** se atualiza, e podemos ver como aquilo aparece no nosso código, além disso ao passarmos o mouse sobre qualquer elemento, podemos ver suas caractéristica, como cor, cor de fundo, tipo de fonte, etc.
+
+Enfim, você chegou ao final da primeira prática.
+
+- [X] Donwload do projeto que está no gitHub (utilizando a interface do site).
+- [X] Entender a organização do projeto
+- [X] Identificou as tags que aprendemos.
+- [X] Inspecionou elementos atráves de ferramentas dos 
+navegadores.
+- [X] Utilizou tags ensinadas durante a aula 1.
 
