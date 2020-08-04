@@ -19,7 +19,7 @@ Bom a primeira coisa a se fazer, é baixar o projeto para o seu computador. Pra 
 
 ![Gif mostrando como selecionar o botão de download do repositório](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/downloadRepositorioGitHub.gif)
 
-Como o arquivo está zipado(compactado), será necessário fazer a descompactação(*iremos utilizar o programa gratuito **WINRAR***). Logo quando o download for completado, siga os seguintes passos abaixo:
+Como o arquivo está zipado(compactado), será necessário fazer a descompactação (iremos utilizar o programa gratuito [***WINRAR***](eu-nao-tenho-o-winrar-como-faco-pra-baixa-lo) ). Logo quando o download for completado, siga os seguintes passos abaixo:
 
 ![Gif mostrando como fazer a descompactação](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/descompactandoProjeto.gif)
 
@@ -58,7 +58,7 @@ Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora 
 + Abra no navegador o arquivo index.html. Pra fazer isso, vá até a pasta do projeto que baixamos,procure pelo arquivo index.html, e dê um click duplo sobre ele.
 Enxurrada-de-Bits-Exercicios-master > src > index.html 
 
-+ Abra o projeto no seu Editor de Código(***Recomendo fortemente o VS Code***), clicando em File > Open Folder .
++ Abra o projeto no seu Editor de Código(***Recomendo fortemente o VS Code***), clicando em File(arquivo) > Open Folder(abrir pasta) .
 
 ![Abrindo Projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/abrindoProjeto.gif)
 
@@ -67,7 +67,7 @@ Enxurrada-de-Bits-Exercicios-master > src > index.html
 
 ![Navegando Pelas pastas do projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/NavengadoPelaPastaDoProjeto.gif)
 
-*obs.:Ao abrir esse arquivo, você pode se assutar um pouco com a quantidade de coisa. **Mas calma!** Inicialmente você não irá precisar saber de todo que está no código.*
+*obs.:Ao abrir esse arquivo, você pode se assustar um pouco com a quantidade de coisa. **Mas calma!** Inicialmente você não irá precisar saber de todo que está no código.*
 
 Enfim, vamos primeiro identificar as tags no código que aprendemos na aula 1 (*não se preocupe com as que **não** estão marcadas em vermelho*):  
 
@@ -75,13 +75,13 @@ Enfim, vamos primeiro identificar as tags no código que aprendemos na aula 1 (*
 
 Aqui podemos identificar as tags que você deverá saber ao estar fazendo essa prática. Ou seja, caso ainda esteja com dúvida de como essas tags funcionam, volte e reveja os materiais referentes a aula. 
 
-*Obs: Perceba a diferença entre a ordem de como os atributos forma colocados na primeira e na segunda tags link(marcadas de vermelho). Bom essa diferença não importa para o seu funcionamento, porém é uma boa prática manter um padrão.*
+*Obs: Perceba a diferença entre a ordem de como os [atributos](o-que-sao-atributos) forma colocados na primeira e na segunda tags link(marcadas de vermelho). Bom essa diferença não importa para o seu funcionamento, porém é uma boa prática manter um padrão.*
 
-Agora, descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada ***section***. Por hora vamos ignorar essa parte do código, pois ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
+Agora, descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada [**section**](o-que-e-a-tag-section). Por hora vamos ignorar essa parte do código, pois ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
 
 ![Gif mostrando como ocultar parte do código pelo Editor de Códigos VS code](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tag2.gif)
 
-Chegando a próxima tag ***section*** podemos ver dentro dela, tags que já conhecemos. Essas tags estão identificadas em vermelho, como mostrado abaixo:
+Chegando a próxima tag [**section**](o-que-e-a-tag-section) podemos ver dentro dela, tags que já conhecemos. Essas tags estão identificadas em vermelho, como mostrado abaixo:
 
 *obs: Não se preocupe agora com o que está em amarelo na tag img, e com as tags que ainda não abordamos em aula.*
 
@@ -115,16 +115,15 @@ Agora você irá realizar alterações no código, vendo o resultado final, assi
 
 ![Segunda Edição de Texto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/segundaEdi%C3%A7%C3%A3oDeTexto.png)
 
-Na próxima ***section*** você irá identificar as tag necessárias, modificar seu conteúdo, para que o resultado seja o seguinte:
+Na próxima *[**section**](o-que-e-a-tag-section)* você irá identificar as tag necessárias, modificar seu conteúdo, para que o resultado seja o seguinte:
 
 ![Terceira Edição de Texto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/TerceiraEdi%C3%A7%C3%A3oDeTexto.png)
 
-A ultima ***section*** desse arquivo, possui imagens do personagens principais, e cada uma dessas imagens também é um link. Mas como assim um link?! Bom, o que está acontencendo 
-é que o conteúdo dentro da **a** , no caso é uma imagem, está recebendo as caracteristicas da **tag pai**, que é justamente a tag **a**.
+A ultima [**section**](o-que-e-a-tag-section) desse arquivo, possui imagens do personagens principais, e cada uma dessas imagens também é um link. Mas como assim um link?! Bom, o que está acontencendo é que o conteúdo dentro da **a** , no caso é uma imagem, está recebendo as caracteristicas da [**tag pai**](o-que-voce-quis-dizer-com-tag-pai), que é justamente a tag **a**.
 
 ![Link na imagem,código](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/linkNaImagemCode.png)
 
-Bom, sua missão agora é adicionar um **link interno**, a cada uma dessas fotos. Volte na **primeira tag de parágrafo** do site, e coloque os links internos no nome de cada personagem (inclusive já colocamos estes nomes em negrito, anteriormente). *E lembre-se, o atributo **href** nesse caso, deve ser ( #atributo name do seu link destino). Por exemplo, na imagem acima o atributo name do link destino é **homer**, logo o link de ponto de partida deve ter o atributo href="#homer".*
+Bom, sua missão agora é adicionar um **link interno**, a cada uma dessas fotos. Volte na **primeira tag de parágrafo** do site, e coloque os links internos no nome de cada personagem (inclusive já colocamos estes nomes em negrito, anteriormente). *E lembre-se, o atributo [**href**](O que significa "*href) nesse caso, deve ser ( #atributo name do seu link destino). Por exemplo, na imagem acima o atributo name do link destino é **homer**, logo o link de ponto de partida deve ter o atributo href="#homer"*.
 
 O resultado deve ser algo como:
 ![Resultado de adicões de links internos a página](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/VisualizandoLinkInterno.gif)
@@ -139,7 +138,7 @@ Feito isso, o navegador irá abrir uma um caixa de funcionalidades. *obs.: As fe
 
 ![Mostrando Ferramentas do Navegador](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoFerramentaDeDesenvolvedor.png)
 
-Perceba que a parte que está dentro do quadrado vermelho, são as **sections** do nosso código, e que a circulada em verde foi a primeira que alteramos nessa prática.
+Perceba que a parte que está dentro do quadrado vermelho, são as (**section**)[o-que-e-a-tag-section] do nosso código, e que a circulada em verde foi a primeira que alteramos nessa prática.
 Os navegadores possuem também, uma ferramenta que permite inspecionar elementos. Pra utiliza-la, faça como a demostração abaixo:
 
 ![Mostrando como se utiliza o Inspetor de elementos do navegador](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoOInspetordeElementos.gif)
@@ -150,9 +149,34 @@ Os navegadores possuem também, uma ferramenta que permite inspecionar elementos
 Enfim, você chegou ao final da primeira prática.
 
 - [X] [Donwload do projeto que está no gitHub (utilizando a interface do site).](#fazendo-downloand-do-projeto)
-- [X] [Entender a organização do projeto.](#entendendo-a-estrutura-do-projeto)
+- [X] [Entendeu a organização do projeto.](#entendendo-a-estrutura-do-projeto)
 - [X] [Identificou as tags que aprendemos.](#identificando-inspecionando-e-adicionando-tags)
 - [X] [Inspecionou elementos atráves de ferramentas dos 
 navegadores.](#identificando-inspecionando-e-adicionando-tags)
 - [X] [Utilizou tags ensinadas durante a aula 1.](#identificando-inspecionando-e-adicionando-tags)
 
+
+### FAQ *(perguntas frequentes)
+
++ **O que é um site reponsivo ?**
+Um site reponsivo, é um site que adapte seu layout(seu modelo gráfico de site), a diversos tamanhos de tela.
+[Link para mais informações](https://www.agenciakaizen.com.br/desenvolvimento-de-sites/o-que-e-um-site-responsivo/)
+
++ #### Eu não tenho o **Winrar**, como faço pra baixá-lo?
+O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free).
+[Link para baixar o Winrar](https://www.win-rar.com/start.html?&L=9)
+
++ #### O que é a tag *section*?
+Para essa prática, não é necessário que você saiba seu funcionamento, mas caso queira saber mais, segue o link:
+[Tag section](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section)
+
++ #### O que são **atributos**?
+Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:
+[Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
+
++ #### O que você quis dizer com "tag pai"?
+Esse conceito está ligado a forma de como os elementos são estruturados no documento html, para saber mais segue o link:
+
++ #### O que significa "*href*"?
+Href é a abreviatura de Hypertext Reference, atributo de um documento HTML, que define um vínculo com outro documento da Web. Para mais informações, segue o link abaixo:
+(Contextualização do que é o atributo href)[https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a]
