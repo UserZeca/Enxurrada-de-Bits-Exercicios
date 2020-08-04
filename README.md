@@ -166,7 +166,7 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 + O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free):
 [Link para baixar o Winrar](https://www.win-rar.com/start.html?&L=9)
 
-### Como baixar o VS Code ?
+#### Como baixar o VS Code ?
 + O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free):
 [Link para baixar o VS Code](https://code.visualstudio.com/download)
 
