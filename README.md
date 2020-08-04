@@ -19,7 +19,7 @@ Bom a primeira coisa a se fazer, é baixar o projeto para o seu computador. Pra 
 
 ![Gif mostrando como selecionar o botão de download do repositório](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/downloadRepositorioGitHub.gif)
 
-Como o arquivo está zipado(compactado), será necessário fazer a descompactação (iremos utilizar o programa gratuito [***WINRAR***](#eu-nao-tenho-o-winrar-como-faco-pra-baixa-lo) ). Logo quando o download for completado, siga os seguintes passos abaixo:
+Como o arquivo está zipado(compactado), será necessário fazer a descompactação (iremos utilizar o programa gratuito [***WINRAR***](#eu-não-tenho-o-winrar-como-faço-pra-baixá-lo) ). Logo quando o download for completado, siga os seguintes passos abaixo:
 
 ![Gif mostrando como fazer a descompactação](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/descompactandoProjeto.gif)
 
