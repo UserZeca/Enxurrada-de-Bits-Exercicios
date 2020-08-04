@@ -158,7 +158,7 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 
 ## FAQ *(perguntas frequentes)*
 
-#### O que é Enxurrada de Bits?
+#### O que é o **Enxurrada de Bits**?
 + Enxurrada de Bits é um projeto de extensão do CEFET-MG, que visa capacitar estudantes de escolas publicas, por meio de cursos de Programação Web, Robótica e Informática Básica. Além de participar e promover eventos, relacionados a área de tecnologia. Saiba mais, pelo [Instagram](https://www.instagram.com/enxurradadebits/?hl=pt-br), e pelo [Site](http://www.enxurradadebits.cefetmg.br/o-enxurrada-de-bits/) do Projeto.
 
 ####  O que é um site reponsivo ?
