@@ -58,7 +58,7 @@ Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora 
 + Abra no navegador o arquivo index.html. Pra fazer isso, vá até a pasta do projeto que baixamos,procure pelo arquivo index.html, e dê um click duplo sobre ele.
 Enxurrada-de-Bits-Exercicios-master > src > index.html 
 
-+ Abra o projeto no seu Editor de Código(***Recomendo fortemente o [VS Code](faq-perguntas-frequentes)***), clicando em File(arquivo) > Open Folder(abrir pasta) .
++ Abra o projeto no seu Editor de Código(***Recomendo fortemente o [VS Code](#como-baixar-o-vs-code)***), clicando em File(arquivo) > Open Folder(abrir pasta) .
 
 ![Abrindo Projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/abrindoProjeto.gif)
 
