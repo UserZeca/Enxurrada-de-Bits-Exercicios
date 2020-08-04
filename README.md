@@ -35,7 +35,7 @@ O projeto em sí é uma "mine Wikipedia dos Simpsons", e nela irá conter inform
 
 A página principal, inicialmente está como é mostrado acima, porém ao decorrer das atividades ela será modificada.
 
-*obs.: As páginas do projeto ainda não são [resposivas](#o-que-é-um-site-reponsivo), por motivos didáticos.*
+*obs.: As páginas do projeto ainda não são [resposivas](#faq-perguntas-frequentes), por motivos didáticos.*
 
 #### Como o projeto foi organizado?
 
@@ -119,7 +119,7 @@ Na próxima *[**section**](#o-que-é-a-tag-section)* você irá identificar as t
 
 ![Terceira Edição de Texto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/TerceiraEdi%C3%A7%C3%A3oDeTexto.png)
 
-A ultima [**section**](#o-que-é-a-tag-section) desse arquivo, possui imagens do personagens principais, e cada uma dessas imagens também é um link. Mas como assim um link?! Bom, o que está acontencendo é que o conteúdo dentro da **a** , no caso é uma imagem, está recebendo as caracteristicas da [**tag pai**](#o-que-voce-quis-dizer-com-tag-pai), que é justamente a tag **a**.
+A ultima [**section**](#o-que-é-a-tag-section) desse arquivo, possui imagens do personagens principais, e cada uma dessas imagens também é um link. Mas como assim um link?! Bom, o que está acontencendo é que o conteúdo dentro da **a** , no caso é uma imagem, está recebendo as caracteristicas da [**tag pai**](#o-que-você-quis-dizer-com-tag-pai), que é justamente a tag **a**.
 
 ![Link na imagem,código](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/linkNaImagemCode.png)
 
