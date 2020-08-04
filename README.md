@@ -159,11 +159,11 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 ## FAQ *(perguntas frequentes)*
 
 ####  O que é um site reponsivo ?
-+ Um site reponsivo, é um site que adapte seu layout(seu modelo gráfico de site), a diversos tamanhos de tela.
++ Um site reponsivo, é um site que adapte seu layout(seu modelo gráfico de site), a diversos tamanhos de tela:
 [Link para mais informações](https://www.agenciakaizen.com.br/desenvolvimento-de-sites/o-que-e-um-site-responsivo/)
 
 #### Eu não tenho o **Winrar**, como faço pra baixá-lo?
-+ O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free).
++ O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free):
 [Link para baixar o Winrar](https://www.win-rar.com/start.html?&L=9)
 
 #### O que é a tag *section*?
@@ -176,6 +176,7 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 
 #### O que você quis dizer com "tag pai"?
 + Esse conceito está ligado a forma de como os elementos são estruturados no documento html, para saber mais segue o link:
+[Hieraquia HTML](https://wtricks.com.br/hierarquia-no-html/)
 
 #### O que significa "*href*"?
 + Href é a abreviatura de Hypertext Reference, atributo de um documento HTML, que define um vínculo com outro documento da Web. Para mais informações, segue o link abaixo:
