@@ -156,7 +156,7 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 - [X] [Utilizou tags ensinadas durante a aula 1.](#identificando-inspecionando-e-adicionando-tags)
 
 
-### FAQ *(perguntas frequentes)
+### FAQ *(perguntas frequentes)*
 
 #### O que é um site reponsivo ?
 Um site reponsivo, é um site que adapte seu layout(seu modelo gráfico de site), a diversos tamanhos de tela.
