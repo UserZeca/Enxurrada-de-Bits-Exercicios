@@ -158,25 +158,25 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 
 ## FAQ *(perguntas frequentes)*
 
-#### O que é um site reponsivo ?
-Um site reponsivo, é um site que adapte seu layout(seu modelo gráfico de site), a diversos tamanhos de tela.
+####  O que é um site reponsivo ?
++ Um site reponsivo, é um site que adapte seu layout(seu modelo gráfico de site), a diversos tamanhos de tela.
 [Link para mais informações](https://www.agenciakaizen.com.br/desenvolvimento-de-sites/o-que-e-um-site-responsivo/)
 
 #### Eu não tenho o **Winrar**, como faço pra baixá-lo?
-O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free).
++ O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free).
 [Link para baixar o Winrar](https://www.win-rar.com/start.html?&L=9)
 
 #### O que é a tag *section*?
-Para essa prática, não é necessário que você saiba seu funcionamento, mas caso queira saber mais, segue o link:
++ Para essa prática, não é necessário que você saiba seu funcionamento, mas caso queira saber mais, segue o link:
 [Tag section](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section)
 
 #### O que são **atributos**?
-Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:
++ Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:
 [Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
 
 #### O que você quis dizer com "tag pai"?
-Esse conceito está ligado a forma de como os elementos são estruturados no documento html, para saber mais segue o link:
++ Esse conceito está ligado a forma de como os elementos são estruturados no documento html, para saber mais segue o link:
 
 #### O que significa "*href*"?
-Href é a abreviatura de Hypertext Reference, atributo de um documento HTML, que define um vínculo com outro documento da Web. Para mais informações, segue o link abaixo:
++ Href é a abreviatura de Hypertext Reference, atributo de um documento HTML, que define um vínculo com outro documento da Web. Para mais informações, segue o link abaixo:
 [Contextualização do que é o atributo href](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a)
