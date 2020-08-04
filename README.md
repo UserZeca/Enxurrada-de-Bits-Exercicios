@@ -58,7 +58,7 @@ Bom, já baixamos o projeto e entendemos sobre a estrutura desse projeto, agora 
 + Abra no navegador o arquivo index.html. Pra fazer isso, vá até a pasta do projeto que baixamos,procure pelo arquivo index.html, e dê um click duplo sobre ele.
 Enxurrada-de-Bits-Exercicios-master > src > index.html 
 
-+ Abra o projeto no seu Editor de Código(***Recomendo fortemente o VS Code***), clicando em File(arquivo) > Open Folder(abrir pasta) .
++ Abra o projeto no seu Editor de Código(***Recomendo fortemente o [VS Code](como-baixar-o-vs-code)***), clicando em File(arquivo) > Open Folder(abrir pasta) .
 
 ![Abrindo Projeto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/abrindoProjeto.gif)
 
@@ -165,6 +165,10 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 #### Eu não tenho o **Winrar**, como faço pra baixá-lo?
 + O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free):
 [Link para baixar o Winrar](https://www.win-rar.com/start.html?&L=9)
+
+### Como baixar o VS Code ?
++ O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free):
+[Link para baixar o VS Code](https://code.visualstudio.com/download)
 
 #### O que é a tag *section*?
 + Para essa prática, não é necessário que você saiba seu funcionamento, mas caso queira saber mais, segue o link:
