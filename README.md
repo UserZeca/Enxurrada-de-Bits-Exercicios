@@ -3,7 +3,7 @@
 Olá :) ! Bem vindo(a) as práticas do **Curso de Programação Web**.
 Durante essas práticas, você irá desenvolver um projeto, e entender mais de conteúdos abordados na aula.
 
-## Aula 1
+## Aula 1 
  Nessa prática você irá aprender a:
 
 - [ ] [Fazer donwload do projeto que está no gitHub (utilizando a interface do site)](#fazendo-downloand-do-projeto).
@@ -158,6 +158,11 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 
 ## FAQ *(perguntas frequentes)*
 
+#### O que é Enxurrada de Bits?
++ Enxurrada de Bits é um projeto de extensão do CEFET-MG, que visa capacitar estudantes de escolas publicas, por meio de cursos de Programação Web, Robótica e Informática Básica. Além de participar e promover eventos, relacionados a área de tecnologia.
+[Site](http://www.enxurradadebits.cefetmg.br/o-enxurrada-de-bits/)
+[Instagram](https://www.instagram.com/enxurradadebits/?hl=pt-br)
+
 ####  O que é um site reponsivo ?
 + Um site reponsivo, é um site que adapte seu layout(seu modelo gráfico de site), a diversos tamanhos de tela:
 [Link para mais informações](https://www.agenciakaizen.com.br/desenvolvimento-de-sites/o-que-e-um-site-responsivo/)
@@ -185,3 +190,4 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 #### O que significa "*href*"?
 + Href é a abreviatura de Hypertext Reference, atributo de um documento HTML, que define um vínculo com outro documento da Web. Para mais informações, segue o link abaixo:
 [Contextualização do que é o atributo href](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a)
+
