@@ -19,7 +19,7 @@ Bom a primeira coisa a se fazer, é baixar o projeto para o seu computador. Pra 
 
 ![Gif mostrando como selecionar o botão de download do repositório](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/downloadRepositorioGitHub.gif)
 
-Como o arquivo está zipado(compactado), será necessário fazer a descompactação (iremos utilizar o programa gratuito [***WINRAR***](eu-nao-tenho-o-winrar-como-faco-pra-baixa-lo) ). Logo quando o download for completado, siga os seguintes passos abaixo:
+Como o arquivo está zipado(compactado), será necessário fazer a descompactação (iremos utilizar o programa gratuito [***WINRAR***](eu-nao-tenho-o-winrar-como-faco-pra-baixalo) ). Logo quando o download for completado, siga os seguintes passos abaixo:
 
 ![Gif mostrando como fazer a descompactação](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/descompactandoProjeto.gif)
 
@@ -35,7 +35,7 @@ O projeto em sí é uma "mine Wikipedia dos Simpsons", e nela irá conter inform
 
 A página principal, inicialmente está como é mostrado acima, porém ao decorrer das atividades ela será modificada.
 
-*obs.: As páginas do projeto ainda não são resposivas, por motivos didáticos.*
+*obs.: As páginas do projeto ainda não são [resposivas](o-que-e-um-site-reponsivo), por motivos didáticos.*
 
 #### Como o projeto foi organizado?
 
@@ -158,25 +158,25 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 
 ### FAQ *(perguntas frequentes)
 
-+ **O que é um site reponsivo ?**
+#### O que é um site reponsivo ?
 Um site reponsivo, é um site que adapte seu layout(seu modelo gráfico de site), a diversos tamanhos de tela.
 [Link para mais informações](https://www.agenciakaizen.com.br/desenvolvimento-de-sites/o-que-e-um-site-responsivo/)
 
-+ #### Eu não tenho o **Winrar**, como faço pra baixá-lo?
+#### Eu não tenho o **Winrar**, como faço pra baixá-lo?
 O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free).
 [Link para baixar o Winrar](https://www.win-rar.com/start.html?&L=9)
 
-+ #### O que é a tag *section*?
+#### O que é a tag *section*?
 Para essa prática, não é necessário que você saiba seu funcionamento, mas caso queira saber mais, segue o link:
 [Tag section](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section)
 
-+ #### O que são **atributos**?
+#### O que são **atributos**?
 Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:
 [Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
 
-+ #### O que você quis dizer com "tag pai"?
+#### O que você quis dizer com "tag pai"?
 Esse conceito está ligado a forma de como os elementos são estruturados no documento html, para saber mais segue o link:
 
-+ #### O que significa "*href*"?
+#### O que significa "*href*"?
 Href é a abreviatura de Hypertext Reference, atributo de um documento HTML, que define um vínculo com outro documento da Web. Para mais informações, segue o link abaixo:
-(Contextualização do que é o atributo href)[https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a]
+[Contextualização do que é o atributo href](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a)
