@@ -144,7 +144,7 @@ Os navegadores possuem também, uma ferramenta que permite inspecionar elementos
 ![Mostrando como se utiliza o Inspetor de elementos do navegador](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoOInspetordeElementos.gif)
 
 + Observe que ao passar o mouse por cima de uma parte do codigo na aba **Elements** a parte em que estamos com o mouse em cima fica azul, assim como a sua respectiva parte na nossa página. 
-+ Acima também podemos ver que ao selecionarmos a ferramenta de inspecionar(a com icone de setinha em cima de uma quadrado), temos a liberdade de selecionar qualquer elemento da tela, clicando nele. No exemplp acima, podemos ver que ao selecionarmos o nome de Matt Groening(com inspetor acionado), a aba de **Elements** se atualiza, e podemos ver como aquilo aparece no nosso código, além disso ao passarmos o mouse sobre qualquer elemento, podemos ver suas caractéristica, como cor, cor de fundo, tipo de fonte, etc.
++ Acima também podemos ver que ao selecionarmos a ferramenta de inspecionar(a com icone de setinha em cima de uma quadrado), temos a liberdade de selecionar qualquer elemento da tela, clicando nele. No exemplo acima, podemos ver que ao selecionarmos o nome de Matt Groening(com inspetor acionado), a aba de **Elements** se atualiza, e podemos ver como aquilo aparece no nosso código, além disso ao passarmos o mouse sobre qualquer elemento, podemos ver suas caractéristica, como cor, cor de fundo, tipo de fonte, etc.
 
 Enfim, você chegou ao final da primeira prática.
 
