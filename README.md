@@ -9,7 +9,7 @@ Durante essas práticas, você irá desenvolver um projeto, e entender mais de c
 - [ ] [Fazer donwload do projeto que está no gitHub (utilizando a interface do site)](#fazendo-downloand-do-projeto).
 - [ ] [A organização do projeto](#entendendo-a-estrutura-do-projeto)
 - [ ] [Identificar as tags que aprendemos.](#identificando-inspecionando-e-adicionando-tags)
-- [ ] [Inspecionar elementos atráves de ferramentas dos 
+- [ ] [Inspecionar elementos através de ferramentas dos 
 navegadores.](#identificando-inspecionando-e-adicionando-tags)
 - [ ] [Utilizar tags ensinadas durante a aula 1.](#identificando-inspecionando-e-adicionando-tags)
 
