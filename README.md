@@ -134,7 +134,7 @@ Para abrir a ferramenta pressione:
 + F12, caso esteja usando o **Google Chrome**
 + Ctrl + Shift + K, caso esteja usando o **FireFox**
 
-Feito isso, o navegador irá abrir uma um caixa de funcionalidades. *obs.: As ferramentas dos dois navegadores são bem parecidas*
+Feito isso, o navegador irá abrir uma um caixa de funcionalidades. *obs.: As ferramentas dos dois navegadores são bem parecidas.*
 
 ![Mostrando Ferramentas do Navegador](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoFerramentaDeDesenvolvedor.png)
 
