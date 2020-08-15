@@ -43,7 +43,7 @@ O projeto foi organizado da seguinte forma:
 
 ![Foto mostrando a estrutura do projeto, organização de diretórios](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/estruturaBasicaDosArquivos.png)
 
-+ **src** - Pasta(diretório) Raiz que possui todos os codigos, imagens, etc.
++ **src** - Pasta(diretório) Raiz que possui todos os códigos, imagens, etc.
 + **componentes** - Pasta(*diretório*) que possui arquivos de estilo relacionados a um elemento especifico da página. ***Não se preocupe com ela, pois ela não é o foco aqui***.
 + **img** - Essa pasta possui as imagens que iremos utilizar para construir as páginas. *obs.: Na maioria das vezes esse pasta fica por padrão dentro de uma pasta chamada asserts, não é o caso aqui.*
 + **paginas** - Dentro dessa pasta termos todas as sub páginas, ou seja todas as páginas que não são a página **home**(principal).
