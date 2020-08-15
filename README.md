@@ -119,7 +119,7 @@ Na próxima *[**section**](#o-que-é-a-tag-section)* você irá identificar as t
 
 ![Terceira Edição de Texto](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/TerceiraEdi%C3%A7%C3%A3oDeTexto.png)
 
-A ultima [**section**](#o-que-é-a-tag-section) desse arquivo, possui imagens do personagens principais, e cada uma dessas imagens também é um link. Mas como assim um link?! Bom, o que está acontencendo é que o conteúdo dentro da **a** , no caso é uma imagem, está recebendo as caracteristicas da [**tag pai**](#o-que-você-quis-dizer-com-tag-pai), que é justamente a tag **a**.
+A última [**section**](#o-que-é-a-tag-section) desse arquivo, possui imagens do personagens principais, e cada uma dessas imagens também é um link. Mas como assim um link?! Bom, o que está acontencendo é que o conteúdo dentro da **a** , no caso é uma imagem, está recebendo as caracteristicas da [**tag pai**](#o-que-você-quis-dizer-com-tag-pai), que é justamente a tag **a**.
 
 ![Link na imagem,código](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/linkNaImagemCode.png)
 
