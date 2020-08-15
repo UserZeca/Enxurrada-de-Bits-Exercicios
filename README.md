@@ -77,7 +77,7 @@ Aqui podemos identificar as tags que você deverá saber ao estar fazendo essa p
 
 *Obs: Perceba a diferença entre a ordem de como os [atributos](#o-que-são-atributos) forma colocados na primeira e na segunda tags link(marcadas de vermelho). Bom essa diferença não importa para o seu funcionamento, porém é uma boa prática manter um padrão.*
 
-Agora, descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada [**section**](#o-que-é-a-tag-section). Por hora vamos ignorar essa parte do código, pois ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
+Agora, descendo um pouco mais, avistamos um conjunto grande de tags agrupadas por uma tag chamada [**section**](#o-que-é-a-tag-section). Por hora vamos ignorar essa parte do código, pois ainda não foi abordado esse conteúdo nas aulas. (porém fica, como desafio, tentar entender pra que serve cada uma destas tags). Caso você esteja utilizando o VS Code ou outro editor que também tenha a ferramenta de ocultar partes do código, faça como abaixo. Deixaremos essa parte ocultada, para que seja mais fácil de ler o código.
 
 ![Gif mostrando como ocultar parte do código pelo Editor de Códigos VS code](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/Tag2.gif)
 
