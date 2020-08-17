@@ -123,7 +123,7 @@ A última [**section**](#o-que-é-a-tag-section) desse arquivo, possui imagens d
 
 ![Link na imagem,código](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/linkNaImagemCode.png)
 
-Bom, sua missão agora é adicionar um **[link interno](#O-que-sao-links-internos)**, a cada uma dessas fotos. Volte na **primeira tag de parágrafo** do site, e coloque os links internos no nome de cada personagem (inclusive já colocamos estes nomes em negrito, anteriormente). *E lembre-se, o atributo [**href**](#o-que-significa-href) nesse caso, deve ser ( #atributo name do seu link destino). Por exemplo, na imagem acima o [atributo](#o-que-são-atributos) name do link destino é **homer**, logo o link de ponto de partida deve ter o atributo href="#homer"*.
+Bom, sua missão agora é adicionar um **[link interno](#faq-perguntas-frequentes)**, a cada uma dessas fotos. Volte na **primeira tag de parágrafo** do site, e coloque os links internos no nome de cada personagem (inclusive já colocamos estes nomes em negrito, anteriormente). *E lembre-se, o atributo [**href**](#o-que-significa-href) nesse caso, deve ser ( #atributo name do seu link destino). Por exemplo, na imagem acima o [atributo](#o-que-são-atributos) name do link destino é **homer**, logo o link de ponto de partida deve ter o atributo href="#homer"*.
 
 O resultado deve ser algo como:
 ![Resultado de adicões de links internos a página](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/VisualizandoLinkInterno.gif)
@@ -173,6 +173,10 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 + O link abaixo irá levá-lo a página oficial do software, lá você poderá baixá-lo pra versão do seu sistema operacional, gratuitamente (free):</br>
 [Link para baixar o VS Code](https://code.visualstudio.com/download)
 
+#### O que são **links internos** ? 
++ Um link interno é uma forma de fazer com que um link aponte pra dentro da própria página, como um sumário cheio de tópicos, que ao selecionarmos um desses tópicos, somos redirecionados a parte do texto que trata daquele tópico em questão. Exemplo, o próprio sumário desse documento, possui links internos. </br>
+[Link para mais informações](https://www.alura.com.br/artigos/ancorando-elementos-com-html5)
+
 #### O que é a tag *section*?
 + Para essa prática, não é necessário que você saiba seu funcionamento, mas caso queira saber mais, segue o link:</br>
 [Tag section](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section)
@@ -180,11 +184,6 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 #### O que são **atributos**?
 + Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:</br>
 [Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
-
-#### O que são **links internos** ? 
-+ Um link interno é uma forma de fazer com que um link aponte pra dentro da própria página, como um sumário cheio de tópicos, que ao selecionarmos um desses tópicos, somos redirecionados a parte do texto que trata daquele tópico em questão. Exemplo, o próprio sumário desse documento, possui links internos. </br>
-[Link para mais informações](https://www.alura.com.br/artigos/ancorando-elementos-com-html5)
-
 
 #### O que você quis dizer com "tag pai"?
 + Esse conceito está ligado a forma de como os elementos são estruturados no documento html, para saber mais segue o link:</br>
