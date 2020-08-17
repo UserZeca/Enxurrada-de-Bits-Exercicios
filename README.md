@@ -181,6 +181,11 @@ navegadores.](#identificando-inspecionando-e-adicionando-tags)
 + Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:</br>
 [Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
 
+#### O que são **links internos** ? 
++ Um link interno é uma forma de fazer com que um link aponte pra dentro da própria página, como um sumário cheio de tópicos, que ao selecionarmos um desses tópicos, somos redirecionados a parte do texto que trata daquele tópico em questão. </br>
+[Link para mais informações](https://www.alura.com.br/artigos/ancorando-elementos-com-html5)
+
+
 #### O que você quis dizer com "tag pai"?
 + Esse conceito está ligado a forma de como os elementos são estruturados no documento html, para saber mais segue o link:</br>
 [Hieraquia HTML](https://wtricks.com.br/hierarquia-no-html/)
