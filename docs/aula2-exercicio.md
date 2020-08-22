@@ -77,7 +77,7 @@ Ao abrir esta página, ou acessando pela pasta ou pelo link na página index, po
 
 Bom e se você, está se perguntando, porque a página está com estilo parecido com a página index?! Isso,está ocorrendo porque nos exportamos o arquivo styles.css, do nosso projeto, pra dentro da página homer.html:
 
-![Imagem do Head do homer.html, identificando importação de arquivo styles.css](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoComoChegarAPaginaHOmerPelaIndex.gif)
+![Imagem do Head do homer.html, identificando importação de arquivo styles.css](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoImportacaoDoStylesNaPagHomer.png)
 
 E se você já se acostumou em como os elemento aparecem no navegador quando são acionados ao HTML, perceberá que assim como na página index, o fluxo dos elementos não segue o fluxo padrão, que é elemento embaixo de elemento.
 
@@ -146,8 +146,6 @@ Perceba que o valor de float dentro do atributo style, é left. E relembrando, o
 Bom você deve fazer a mesma coisa com a segunda imagem, mas agora o valor de **float**, será **right**(direita), ou seja "flutuará a direita":
 
 
-
---- imagem 2 do bart
 
 
 Perceba agora, que a imagem da nossa página, estará "flutuando", ao lado do texto. Mas, há um problema aqui, a disposição do parágrafo e a distância deles para as fotos, pode ser algo que esteja incomodando. Bom o que você deverá fazer, é:
