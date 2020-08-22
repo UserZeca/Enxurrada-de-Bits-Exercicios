@@ -1,6 +1,9 @@
-
 ## Aula 1 
- Nessa prática você irá aprender a:
+[![Praticas Enxurrada de Bits](https://img.shields.io/badge/Enxurrada%20de%20Bits-pr%C3%A1ticas-green)](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/edit/master/README.md)
+[![https://img.shields.io/badge/Enxurrada%20de%20Bits-HTML-red]](https://img.shields.io/badge/Enxurrada%20de%20Bits-pr%C3%A1ticas-green)](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/edit/master/README.md)
+[![https://img.shields.io/badge/Enxurrada%20de%20Bits-CSS-blue]](https://img.shields.io/badge/Enxurrada%20de%20Bits-pr%C3%A1ticas-green)](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/edit/master/README.md)
+
+Nessa prática você irá aprender a:
 
 - [ ] [Fazer donwload do projeto que está no gitHub (utilizando a interface do site)](#fazendo-downloand-do-projeto).
 - [ ] [A organização do projeto](#entendendo-a-estrutura-do-projeto)
