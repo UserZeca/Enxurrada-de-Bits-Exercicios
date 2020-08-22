@@ -174,9 +174,9 @@ O resultado final da página bart, deve ser algo parecido com:
 
 Bom, ao completar essa tarefa, você terá chegado ao fim dessa prática.
 
-- [X] [Deu continuidade ao projeto](retomando-o-que-já-fizemos)
-- [X] [Estilizou elementos das páginas](estilizando-elementos-das-nossas-páginas) 
-- [X] [Alterou o HTML e CSS das páginas index.html e bart.html](alterando-html-e-css-das-páginas)
+- [X] Deu continuidade ao projeto
+- [X] Estilizou elementos das páginas
+- [X] Alterou o HTML e CSS das páginas index.html e bart.html
 - [X] Entendeu mais sobre o fluxo dos elementos 
 - [X] Entendeu mais sobre o posicionamento de elementos
 
