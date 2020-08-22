@@ -101,7 +101,7 @@ Agora o que iremos fazer e adaptar o modelo do homer aos conhecimentos que já a
 ~~~
 
  <section>      
-      <img src="../../img/">
+      <img src="../../img/" width="25%" height="25%">
     
       <h1>Bart</h1> 
       <p> ... </p>            <!-- Parágrafo 1 (Isso é um comentário, ou seja não intefere no código) -->
