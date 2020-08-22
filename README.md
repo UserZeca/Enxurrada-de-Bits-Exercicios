@@ -7,7 +7,7 @@ Durante essas práticas, você irá desenvolver um projeto, e entender mais de c
 
 ## Cronologia das práticas
 
-### [Aula 1](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/docs/aula1-exercicio.md)  
+### [Aula 1](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/aula1-exercicios/docs/aula1-exercicio.md)  
 ### [Aula 2](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/docs/aula2-exercicio.md)
 
  
