@@ -22,7 +22,7 @@ Vendo isso, muitos devem ter se pensado, o que aconteceu com o estilo em negrito
 Então, como dito acima, um link possui caracteristicas visuais padrão, logo o nosso objetivo é "anular" essa caracteristicas. Para isso, iremos primeiro acessar nosso arquivo "styles.css".
 
 <p align="center">
-  <img src="https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoArquivoStyles.png" />
+  <img src="https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoArquivoStyles.png" alt="acesando arquivo.styles.css"/>
 </p>
 
 Perceba, o que está sublimado de vermelho, é o nosso arquivo. Para seleciona-lo, basta clicar em cima dele (styles.css). *Obs.: caso essa "abinha", não apareça pra você, selecione o icone, representado na imagem acima, circulado de amarelo.* 
@@ -145,8 +145,9 @@ Perceba que o valor de float dentro do atributo style, é left. E relembrando, o
 
 Bom você deve fazer a mesma coisa com a segunda imagem, mas agora o valor de **float**, será **right**(direita), ou seja "flutuará a direita":
 
-
-
+<p align="right">
+ <img src="https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoBartADireita.png" alt="Mostrando a primeira foto do bart com a propriedade float com o valor right" />
+</p>
 
 Perceba agora, que a imagem da nossa página, estará "flutuando", ao lado do texto. Mas, há um problema aqui, a disposição do parágrafo e a distância deles para as fotos, pode ser algo que esteja incomodando. Bom o que você deverá fazer, é:
 
@@ -156,6 +157,9 @@ Perceba agora, que a imagem da nossa página, estará "flutuando", ao lado do te
 + adicionar o seletor de imagem. *(dica : seletor img)*
 + adicionar uma margin de 15px(pixels).
 
+O resultado final da página bart, deve ser algo parecido com:
+
+![Resultado página do Bart](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/ResultadoPaginaBart.png)
 
 Bom, ao completar essa tarefa, você terá chegado ao fim dessa pratica.
 
