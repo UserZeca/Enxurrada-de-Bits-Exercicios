@@ -165,7 +165,7 @@ O resultado final da página bart, deve ser algo parecido com:
 
 ![Resultado página do Bart](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/ResultadoPaginaBart.png)
 
-Bom, ao completar essa tarefa, você terá chegado ao fim dessa pratica.
+Bom, ao completar essa tarefa, você terá chegado ao fim dessa prática.
 
 - [X] [Deu continuidade ao projeto](retomando-o-que-já-fizemos)
 - [X] [Estilizou elementos das páginas](estilizando-elementos-das-nossas-páginas) 
@@ -187,3 +187,7 @@ Bom, ao completar essa tarefa, você terá chegado ao fim dessa pratica.
 #### O que são **atributos**?
 + Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:</br>
 [Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
+
+#### O que é float ?
++ Float é uma propriedade do CSS que permite adicionar flutuações a esquerda ou a direita de elementos, dentro do HTML. 
+![Link para mais informaçõess](https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-float-left-e-float-right-e-sua-trupe-a4f4161114c7]
