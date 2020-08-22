@@ -30,13 +30,11 @@ Perceba, o que está sublimado de vermelho, é o nosso arquivo. Para seleciona-l
 Ao abrir o arquivo, podemos ver diversas coisas diferentes.
 
 
-
- -- gif mostrando styles.css 
-
+![Mostrando o Arquivo Styles](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoOArquivoStyles.gif)
 
 Porém o que vamos analizar aqui, são somente o seletores "body", "h1" e "mark".
 
--- foto mostrando os seletores
+![Mostrando Seletores do arquivo styles](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoSeletores.png)
 
 
 
@@ -53,33 +51,33 @@ E como dito acima, você deverá:
 
 Após salvar o arquivo "styles.css", recarregue a página "index.html" no seu navegador. Perceba que agora os links, voltaram a estar branco e em negrito:
 
--- imagem mostra links sem estilização
+![Link sem estiização padrão](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/primeiraEdi%C3%A7%C3%A3oDeTexto.png)
 
 
 ### Alterando HTML e CSS das páginas
 
 #### Index
 
-Para finalizarmos por enquanto o trabalho na página index.html, o que iremos fazer é adicionar links externos para as páginas do Bart e do Homer. Bom, para adicionar esses link devemos primeiro saber onde se localiza as páginas de homer e bart. Na última atividade foi descrito, qual era a estrutura do projeto, e nesse tópico foi dito que há uma pasta chamada "paginas", e nela estão todas as páginas "secundárias" do nosso site. Seu dever agora, e adicionar a cada um dos links, o caminho até esses arquivos. *Obs.: lembre-se o atributo que define o caminho de um link é o **href**, com é mostrado abaixo em vermelho*.
+Para finalizarmos por enquanto o trabalho, na página index.html, o que iremos fazer é adicionar links externos para as páginas do Bart e do Homer. Bom, para adicionar esses link devemos primeiro saber onde se localiza as páginas de homer e bart. Na última atividade foi descrito, qual era a estrutura do projeto, e nesse tópico foi dito que há uma pasta chamada "paginas", e nela estão todas as páginas "secundárias" do nosso site. Seu dever agora, e adicionar a cada um dos links, o caminho até esses arquivos. *Obs.: lembre-se o atributo que define o caminho de um link é o **href**, com é mostrado abaixo em vermelho*.
 
--- img mostrando tag a com atributo href
+![Mostrando href com caminho pra page Homer](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoHrefComCaminhoPraPageHomer.png)
 
 
 Agora, ao clicamos na foto do homer ou do bart, somos levados as suas respectivas páginas.
 
 
--- gif mostrando página index até a do homer
+![Mostrando resultado, ao clicar na foto do homer, levando assim a página homer.html](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoComoChegarAPaginaHOmerPelaIndex.gif)
 
 
 #### Homer
 
 Ao abrir esta página, ou acessando pela pasta ou pelo link na página index, podemos ver uma página com parágrafos, títulos de tamanhos distintos e imagens. 
 
--- Imagem da página do Homer
+![Mostrando a Página do Homer](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoP%C3%A1ginaDoHomer.png)
 
 Bom e se você, está se perguntando, porque a página está com estilo parecido com a página index?! Isso,está ocorrendo porque nos exportamos o arquivo styles.css, do nosso projeto, pra dentro da página homer.html:
 
--- imagem do head dp homer.html
+![Imagem do Head do homer.html, identificando importação de arquivo styles.css](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoComoChegarAPaginaHOmerPelaIndex.gif)
 
 E se você já se acostumou em como os elemento aparecem no navegador quando são acionados ao HTML, perceberá que assim como na página index, o fluxo dos elementos não segue o fluxo padrão, que é elemento embaixo de elemento.
 
@@ -96,8 +94,7 @@ Ao abrir a página Bart, ou pela pasta ou pelo link na página index, podemos ve
 
 Feito isso, agora é somente salvar e recarregar a página, que os caracteres irão mudar.
 
-
--- Foto dos caracteres mudados
+![Página do Bart com os caracteres da forma que queremos, Balsamiq Sans](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoParagrafoComCaracteresCertos.png)
 
 Agora o que iremos fazer e adaptar o modelo do homer aos conhecimentos que já adquirirmos. Bom pra fazer isso você deve copiar o seguinte modelo e adicioná-lo ao seu código.
 
@@ -129,7 +126,7 @@ Bom, o que você deverá fazer será o seguinte:
 + Adicionar informações da internet, aos parágrafos 2 e 3.
 
 
---- foto de como ficou
+![Página do Bart sem a propriedade float](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoPaginaDoBartSemOStyle.gif)
 
 Ao realizar as tarefas acima, você perceberá que os elemetos não estão alinhados da forma que queremos, já que como no modelo do homer, as nossas fotos deveriam ficar ao lado do noso texto, e não em cima ou embaixo. E porque isso tá acontecendo?! Bom como eu disse, nos iriamos adaptar o modelo seguido no arquivo homer, e como podemos percebe, o código que copiamos e colamos no arquivo bart, não possui muitas coisas que o arquivo homer possui, mas enfim, como eu disse iremos adaptar nosso arquivo bart.
 
@@ -143,8 +140,8 @@ Para fazer isso, faça como no exemplo abaixo:
 
 Perceba que o valor de float dentro do atributo style, é left. E relembrando, o que isso significa?! Bom, neste caso a imagem ficará a esquerda do texto:
 
--- imagem do bart 
 
+![Mostrando a primeira foto do bart com a propriedade float com o valor left](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/mostrandoBartAEsquerda.png)
 
 Bom você deve fazer a mesma coisa com a segunda imagem, mas agora o valor de **float**, será **right**(direita), ou seja "flutuará a direita":
 
