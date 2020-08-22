@@ -189,5 +189,5 @@ Bom, ao completar essa tarefa, você terá chegado ao fim dessa prática.
 [Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
 
 #### O que é float ?
-+ Float é uma propriedade do CSS que permite adicionar flutuações a esquerda ou a direita de elementos, dentro do HTML. 
++ Float é uma propriedade do CSS que permite adicionar flutuações a esquerda ou a direita de elementos, dentro do HTML. </br>
 [Link para mais informações](https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-float-left-e-float-right-e-sua-trupe-a4f4161114c7)
