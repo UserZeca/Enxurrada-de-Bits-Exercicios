@@ -190,4 +190,4 @@ Bom, ao completar essa tarefa, você terá chegado ao fim dessa prática.
 
 #### O que é float ?
 + Float é uma propriedade do CSS que permite adicionar flutuações a esquerda ou a direita de elementos, dentro do HTML. 
-[Link para mais informações](https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-float-left-e-float-right-e-sua-trupe-a4f4161114c7]
+[Link para mais informações](https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-float-left-e-float-right-e-sua-trupe-a4f4161114c7)
