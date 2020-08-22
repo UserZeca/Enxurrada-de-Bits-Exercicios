@@ -1,9 +1,9 @@
 ## Aula 2 
  Nessa prática você irá aprender a:
 
-- [ ] [Dar continuidade ao projeto](retomando-o-que-já-fizemos)
-- [ ] [Estilizar elementos das nossas páginas](estilizando-elementos-das-nossas-páginas) 
-- [ ] [Alterar o HTML e CSS das páginas index.html e bart.html](alterando-html-e-css-das-páginas)
+- [ ] Dar continuidade ao projeto
+- [ ] Estilizar elementos das nossas páginas 
+- [ ] Alterar o HTML e CSS das páginas index.html e bart.html
 - [ ] Entender mais sobre o fluxo dos elementos 
 - [ ] Entender mais sobre o posicionamento de elementos
 
