@@ -5,7 +5,7 @@
 
 
 Olá :smiley: ! Bem vindo(a) as práticas do **Curso de Programação Web :computer:**.
-Durante essas práticas, você irá desenvolver um projeto, e entender mais de conteúdos abordados nas aulas.
+Durante essas práticas, você irá desenvolver um projeto, e entender mais de conteúdos abordados nas aulas e em outros exercícios.
 
 
 ## Cronologia das práticas
