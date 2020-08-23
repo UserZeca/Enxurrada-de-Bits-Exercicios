@@ -128,7 +128,7 @@ Bom, o que você deverá fazer será o seguinte:
 
 + Baixar duas imagens do Bart Simpson, pra dentro da pasta **bart** que criamos dentro da pasta **img**. *Obs.: O processo pra baixar é o mesmo que baixar uma imagem no google imagens, botão direito > salvar imagem como ...* 
    - [Link para baixar a imagem 1](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/bart1.png)
-   - [Link para baixar a imagem 2](github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/bart2.png)
+   - [Link para baixar a imagem 2](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/bart2.png)
 
 + Criar um arquivo bartStyles.css dentro da nossa pasta **bart**.
 + Adicionar essa duas imagens dentro de bart.html. *obs.: Perceba que a primeira imagem possui os atributos width e height,que adicionamos porque a imagem bart1 é muito grande, porém você pode alterál-los, se jugar necessário.*
