@@ -16,10 +16,6 @@ Obs.: A branch **master** sempre estará atualizada com as repostas dos exercíc
 + ###  [Aula 2](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula2-exercicios)
 
 
-## LICENSE
-
-[GNU General Public License v3.0](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/LICENSE) © [UserZeca](https://github.com/UserZeca)
- 
 ## FAQ *(perguntas frequentes)*
 
 #### O que é o **Enxurrada de Bits**?
