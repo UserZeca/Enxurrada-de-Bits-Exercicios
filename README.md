@@ -1,6 +1,9 @@
 # Enxurrada-de-Bits-Exercicios
 [![Praticas Enxurrada de Bits](https://img.shields.io/badge/Enxurrada%20de%20Bits-pr%C3%A1ticas-green)](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/edit/master/README.md)
 
+![Logo - Enxurrada de bits](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/EnxurradaDeBits.png)
+
+
 Olá :) ! Bem vindo(a) as práticas do **Curso de Programação Web**.
 Durante essas práticas, você irá desenvolver um projeto, e entender mais de conteúdos abordados na aula.
 
