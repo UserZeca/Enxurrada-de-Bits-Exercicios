@@ -4,7 +4,7 @@
 ![Logo - Enxurrada de bits](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/EnxurradaDeBits.png)
 
 
-Olá :) ! Bem vindo(a) as práticas do **Curso de Programação Web**.
+Olá :smiley: ! Bem vindo(a) as práticas do **Curso de Programação Web**.
 Durante essas práticas, você irá desenvolver um projeto, e entender mais de conteúdos abordados nas aulas.
 
 
