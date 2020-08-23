@@ -10,7 +10,7 @@ Durante essas práticas, você irá desenvolver um projeto, e entender mais de c
 
 ## Cronologia das práticas
 
-Obs.: A branch **master** sempre estará atualizada com as repostas dos exercícios da última aula.
+Obs.: A branch **master** sempre estará atualizada com as repostas dos exercícios da última aula já ocorrida.
 
 + ###  [Aula 1](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula1-exercicios)  
 + ###  [Aula 2](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula2-exercicios)
