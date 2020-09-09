@@ -16,7 +16,7 @@
 
 ### Retomando o que já fizemos
 
-Nos exercícios da aula passada, nós fizemos pequenas alterações no arquivo "index.html" do nosso projeto, e como vimos, esse arquivo representa a página principal do nosso projeto, e em tese ele foi entregue quase pronto para vocês, sendo necessário fazer pequenas alterações. Bom, como vimos durante a segunda aula, há a possibilizade de tornarmos nossa tags menos genéricas, e destravarmos uma limitação, que antes tinhamos ao produzir uma página utlizando somente as tags do HTML.</br>
+Nos exercícios da aula passada, nós fizemos pequenas alterações no arquivo "index.html" do nosso projeto, e como vimos, esse arquivo representa a página principal do nosso projeto, e em tese ele foi entregue quase pronto para vocês, sendo necessário fazer pequenas alterações. Bom, como vimos durante a segunda aula, há a possibilidade de tornarmos nossa tags menos genéricas, e destravarmos uma limitação, que antes tinhamos ao produzir uma página utlizando somente as tags do HTML.</br>
 
 ### Estilizando elementos das nossas páginas
 
