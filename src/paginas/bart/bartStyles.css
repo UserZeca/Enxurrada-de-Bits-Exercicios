@@ -1,0 +1,27 @@
+p{
+    display: flex;
+    text-align: justify;
+  
+ 
+}
+
+
+img {
+    margin: 15px;
+}
+
+.video {
+
+    text-align: center;
+    height: 315px;
+    width: 560px; 
+
+}
+
+.alinharAoCentro{
+
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;    
+
+}
