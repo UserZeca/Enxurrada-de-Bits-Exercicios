@@ -52,7 +52,7 @@ Logo após, faça como a demostração acima, copie a tag que o youtube já te e
 
 ~~~
 
-Perceba, que agora há um vídeo na sua página, porém ele está posicionado de uma forma que não queremos. O que vamos fazer é deixá-lo centralizado. Pra fazer isso utilizaremos a display flex (a partir de agora é importante, que vocês aprendam um pouco sobre essa propriedade, veja mais em **faq**), essa propriedade, irá mudar o comportamento do nosso elemento, permitindo que possamos utilizar novas propriedades pra realizar o alinhamento. Pois bem, adicione uma class, chamada "alinharAoCentro", e coloque dentro do escopo da tag **section**:
+Perceba, que agora há um vídeo na sua página, porém ele está posicionado de uma forma que não queremos. O que vamos fazer é deixá-lo centralizado. Pra fazer isso utilizaremos a display flex (a partir de agora é importante, que vocês aprendam um pouco sobre essa propriedade, veja mais em **[faq](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/aula4-exercicios/README.md#faq-perguntas-frequentes)**), essa propriedade, irá mudar o comportamento do nosso elemento, permitindo que possamos utilizar novas propriedades pra realizar o alinhamento. Pois bem, adicione uma class, chamada "alinharAoCentro", e coloque dentro do escopo da tag **section**:
 
 ~~~  
    <section class="alinharAoCentro">
