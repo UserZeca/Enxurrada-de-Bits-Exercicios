@@ -110,9 +110,6 @@ A partir desse ponto, as atividades de cada um irão se diferenciar tanto na cri
 [Link para mais informações](https://www.hostinger.com.br/tutoriais/o-que-e-iframe/)
 
 
-#### O que é o **Enxurrada de Bits**?
-+ Enxurrada de Bits é um projeto de extensão do CEFET-MG, que visa capacitar estudantes de escolas publicas, por meio de cursos de Programação Web, Robótica e Informática Básica. Além de participar e promover eventos, relacionados a área de tecnologia.</br> Saiba mais, pelo [Instagram](https://www.instagram.com/enxurradadebits/?hl=pt-br), e pelo [Site](http://www.enxurradadebits.cefetmg.br/o-enxurrada-de-bits/) do Projeto.
-
 #### O que é a tag *section*?
 + Para essa prática, não é necessário que você saiba seu funcionamento, mas caso queira saber mais, segue o link:</br>
 [Tag section](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section)
@@ -120,5 +117,8 @@ A partir desse ponto, as atividades de cada um irão se diferenciar tanto na cri
 #### O que são **atributos**?
 + Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:</br>
 [Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
+
+#### O que é o **Enxurrada de Bits**?
++ Enxurrada de Bits é um projeto de extensão do CEFET-MG, que visa capacitar estudantes de escolas publicas, por meio de cursos de Programação Web, Robótica e Informática Básica. Além de participar e promover eventos, relacionados a área de tecnologia.</br> Saiba mais, pelo [Instagram](https://www.instagram.com/enxurradadebits/?hl=pt-br), e pelo [Site](http://www.enxurradadebits.cefetmg.br/o-enxurrada-de-bits/) do Projeto.
 
 
