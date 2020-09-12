@@ -26,7 +26,7 @@ Nos exercícios da aula passada, nós fizemos pequenas alterações no arquivo "
 
 Muitos devem ter percebido, que durante a atividade da última aula, utilizamos a tag style, para diferenciar nosso elementos. Pórem, agora com os conhecimentos que temos, não precisamos fazer mais isso. Bom, o que iremos fazer é substituir os styles, por uma classes que irão fazer a mesma coisa, porém, agora o código ficará de forma mais organizada e fácil de alterar(se necessário). Essas classes, pórem, já existem desde a criação do projeto, elas estão dentro do nosso arquivo style.css. 
 
--- Mostra imagem do style.css
+![Imagem do styles.css](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/img3.png)
 
 Como já estamos importando as classes do arquivo styles.css, sua missão agora, é identificar qual classe substituirá cada atributo style, e assim alterar o arquivo do bart.html</br>
 
@@ -36,7 +36,7 @@ Bom, o que iremos fazer agora é adicionar um vídeo qualquer, sobre o bart. Pra
 
 Pesquise no Youtube, por qualquer vídeo sobre "Bart Simpsons".
 
-
+![mostando como pegar iframe no Youtube](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoComoPegarIframeNoYoutube.gif)
 
 Logo após, faça como a demostração acima, copie a tag que o youtube já te entrega pronta, e coloque entre uma **nova section**, por exemplo:
 
@@ -79,13 +79,13 @@ Agora, vamos utilizar um id, pra personalizar um pouco nosso iframe. Adicione um
 
 Por fim sua página do bart, deve estar similar a página abaixo:
 
--- Página do Bart
+![Mostrando página do Bart com vídeo, utilizando Iframe](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoPaginaDoBartComVideo.gif)
 
 
 
 ### Criar o restante das páginas, ou seja a dos outros personagens
 
-A partir desse ponto, as atividades de cada um irão se diferenciar tanto na criatividade, quanto na aplicação. Porém, você deverá segui mais ou menos o mesmo modelo das páginas anteriores. Bom, o que você deverá fazer daqui pra frente, é utilizar todos os padrões e conteúdos aprendidos durante as duas outras práticas, e fazer as páginas dos demais personagens, Maggie, Lisa e Marge. Lembrando, que após terminar, você deverá adiconar os links pras essas páginas, dentro daquela seção de links que alteramos lá na prática 1 (a das fotinhas dos personagens).
+A partir desse ponto, as atividades de cada um irão se diferenciar tanto na criatividade, quanto na aplicação. Porém, você deverá segui mais ou menos o mesmo modelo das páginas anteriores. Bom, o que você deverá fazer daqui pra frente, é utilizar todos os padrões e conteúdos aprendidos durante as duas outras práticas, e fazer as páginas dos demais personagens, Maggie, Lisa e Marge. Lembrando, que após terminar, você deverá adicionar os links pras essas páginas, dentro daquela seção de links que alteramos lá na prática 1 (a das fotinhas dos personagens).
 
 - [X] Dar continuidade ao projeto
 - [X] Utilizar class e id 
@@ -95,6 +95,20 @@ A partir desse ponto, as atividades de cada um irão se diferenciar tanto na cri
 
 
 ## FAQ *(perguntas frequentes)*
+
+#### O que é display ?
++ Display é uma das propriedades mais importante que possuimos no css, já que ela controla o layout da nossa página html. </br>
+[Link para mais informações](https://pt-br.learnlayout.com/display.html#:~:text=display%20%C3%A9%20a%20propriedade%20mais,%C3%A9%20normalmente%20block%20ou%20inline%20.)
+
+
+#### O que é display flex ?
++ Display flex, é uma propriedade, utilizada pra modificar o comportamento de elementos da nossa página. </br>
+[Link para mais informações](https://origamid.com/projetos/flexbox-guia-completo/)
+
+#### O que é iframe ?
++ Tag utilizada para adicionar conteúdos de outras páginas/sites.</br>
+[Link para mais informações](https://www.hostinger.com.br/tutoriais/o-que-e-iframe/)
+
 
 #### O que é o **Enxurrada de Bits**?
 + Enxurrada de Bits é um projeto de extensão do CEFET-MG, que visa capacitar estudantes de escolas publicas, por meio de cursos de Programação Web, Robótica e Informática Básica. Além de participar e promover eventos, relacionados a área de tecnologia.</br> Saiba mais, pelo [Instagram](https://www.instagram.com/enxurradadebits/?hl=pt-br), e pelo [Site](http://www.enxurradadebits.cefetmg.br/o-enxurrada-de-bits/) do Projeto.
@@ -107,6 +121,4 @@ A partir desse ponto, as atividades de cada um irão se diferenciar tanto na cri
 + Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:</br>
 [Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
 
-#### O que é float ?
-+ Float é uma propriedade do CSS que permite adicionar flutuações a esquerda ou a direita de elementos, dentro do HTML. </br>
-[Link para mais informações](https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-float-left-e-float-right-e-sua-trupe-a4f4161114c7)
+
