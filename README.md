@@ -15,7 +15,7 @@ Obs.: A branch **master** sempre estará atualizada com as repostas dos exercíc
 
 + ###  [Prática 1](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula1-exercicios) - HTML
 + ###  [Prática 2](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula2-exercicios) - HTML & CSS
-+ ###  [Prática 3](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios.git) - id & class
++ ###  [Prática 3](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula4-exercicios) - id & class
 
 ## FAQ *(perguntas frequentes)*
 
