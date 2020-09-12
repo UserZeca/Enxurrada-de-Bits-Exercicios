@@ -13,8 +13,8 @@ Durante essas práticas, você irá desenvolver um projeto, e entender mais de c
 
 Obs.: A branch **master** sempre estará atualizada com as repostas dos exercícios da última aula já ocorrida.
 
-+ ###  [Aula 1](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula1-exercicios) - HTML
-+ ###  [Aula 2](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula2-exercicios) - HTML & CSS
++ ###  [Prática 1](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula1-exercicios) - HTML
++ ###  [Prática 2](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/tree/aula2-exercicios) - HTML & CSS
 
 
 ## FAQ *(perguntas frequentes)*
