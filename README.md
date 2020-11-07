@@ -74,12 +74,43 @@ O exemplo acima reduz a quantidade de linhas de código do nosso programa, já q
 
 Bom, como já foi dito é possivél alterar o HTML e o CSS, utilizando Javascript, mas por que isso seria necessário?! Eu não poderia simplemente alterar diretamente o HTML e o CSS?! Então existem caso em que ficaria quase impossível alterar manuamente certos conteúdo de uma página, seja pelo tamanho , seja pela mudança frequente dos dados. Dito isso, como resolveriamos este problema?! Bem, existem diversas formas, porém a que iremos abordar aqui é mais simples. Porém, antes de começarmos vamos primeiro importar os novos aquivos que iremos precisar:
 
-Vá até o arquivo index.html (página dos simpsons), e adicione os seguintes scripts (dentro da tag head): 
+**Obs.: Não se preocupe, esse aquivos só irão ser utilizados por códigos que serão estregados prontos pra você**
 
-**Obs.: Não se preocupe, esse aquivos só irão se utilizados por códigos que serão estregados prontos pra você**
+- Baixe este **[Arquivo1](https://drive.google.com/file/d/10fKyLZIhMg06s11sSgZxPEZcGwxYjDXL/view?usp=sharing)** e adicione a pasta **src** do seu projeto.
+- Baixe também este **[Arquivo2](https://drive.google.com/file/d/1mNhPiZ5KrA6CBYjB0EoRvu60wp0PamC5/view?usp=sharing)** e adicione a pasta **src** do seu projeto.
+- Adicione o seguinte trecho de código dentro da tag head do Arquivo **index.html**(a página dos simpsons):
 
+~~~
+   <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+    </script>
+    <script src="jquery-csv.js" > </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+~~~
 
+Feito isso vamo entender o que iremos fazer. Bom, a ideia aqui é utilizar o Javascript pra adicionar HTML e CSS, de forma que seja realmente vantajoso utilizá-lo ao invés de alterar diretamente, então o que iremos fazer é adicionar uma quantidade relativamente grande no nosso site, porém utilizando javascript. Esses **[dados](https://raw.githubusercontent.com/UserZeca/Enxurrada-de-Bits-Exercicios/master/docs/Characters.csv)** que iremos adicionar, estão na branch master do nosso projeto, e serão capturados por um dos arquivos que você baixou, index.js. A seguir uma esplicação de como o dados estão está organizados (**Não se preocupe muito, é só para vocês terem uma ideia**).
 
+#### Arquivo CSV(O arquivo que contém os dados)
+
+Como foi dito, este arquivo está na internet, mas o que este arquivo é?! Bom, basicamente este arquivo possui os dados relacionados aos simpsons que iremos utilizar. Esse arquivo é do tipo CSV, um tipo de arquivo muito usado em análise de dados, e intepretando este arquivo podemos ver que os dados ficam organizados da seguinte forma:
+
+~~~
+        Character    |   Description/role
+      Homer Simpson     father of Bart, Lisa, and Maggie
+      Marge Simpson     Wife of Homer; mother of Bart, Lisa, and Maggie
+      Bart Simpson      Oldest child and only son of Homer and Marge; brother of Lisa and Maggie
+      ...               ...
+~~~
+**obs.: Omitir o restante das colunas, pois ela não serão utilizadas**
+
+Bom, acima podemos ver que os arquivos csv são organizados de forma similar a uma tabela e exatamente esse conceito que será levado em consideração para o nosso algoritmo.
+
+#### Arquivo index.js
+
+Esse arquivo vai tratar 
 
 
 
