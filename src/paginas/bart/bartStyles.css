@@ -10,11 +10,12 @@ img {
     margin: 15px;
 }
 
-.video {
+#video {
 
-    text-align: center;
+    border-radius: 10px;
     height: 315px;
-    width: 560px; 
+    width: 560px;
+     
 
 }
 
