@@ -13,11 +13,12 @@
  
 ### Novo ponto de aprendizado
 
-Retomando o conteúdo de programação WEB, o que iremos ver aqui nessa prática é uma das formas de aplicação direta de Javacript. Sabemos que javascript, pode se comunicar com a uma página HTML, porém, ainda não aplicamos a linguagem Javascript para modificar diretamente o conteúdo da nossa página HTML. Bom partindo desse ponto, iremos ver aqui como fazer uma alteração no nosso HTML, mas utilizando a mesma "filosofia" de dar continuidade a algo que já está sendo feito.  
+Retomando o conteúdo de programação WEB, o que iremos ver aqui nessa prática é uma das formas de aplicação direta de Javacript. Sabemos que javascript, pode se comunicar com a uma página HTML, porém, ainda não aplicamos a linguagem Javascript para modificar diretamente o conteúdo da nossa página HTML. Bom partindo desse ponto, iremos ver aqui como fazer uma alteração no nosso HTML, mas utilizando a mesma "filosofia" de dar continuidade a algo que já está sendo feito. 
 
 **Obs.: Antes de começar essa atividade, tenha em mente que os conhecimentos de loops e funções será necessária, mesmo que de forma mínima**
 
 ### Pontos a serem abordados antes da prática
+
 
 - **Variáveis** : Como já estudamos, variáveis podem conter diferentes tipos de dados, como texto, número inteiro, número irracional, etc. Entretanto, nós não virmos as diferentes maneiras com que os dados podem ser agrupados, e durante essa prática teremos a necessidade de aprender sobre uma das formas de organizar os dados. 
 Pois bem, observe o seguinte exemplo:
@@ -71,71 +72,17 @@ O exemplo acima reduz a quantidade de linhas de código do nosso programa, já q
 
 ### Começando a alterar o HTML e CSS com Javascript
 
+Bom, como já foi dito é possivél alterar o HTML e o CSS, utilizando Javascript, mas por que isso seria necessário?! Eu não poderia simplemente alterar diretamente o HTML e o CSS?! Então existem caso em que ficaria quase impossível alterar manuamente certos conteúdo de uma página, seja pelo tamanho , seja pela mudança frequente dos dados. Dito isso, como resolveriamos este problema?! Bem, existem diversas formas, porém a que iremos abordar aqui é mais simples. Porém, antes de começarmos vamos primeiro importar os novos aquivos que iremos precisar:
+
+Vá até o arquivo index.html (página dos simpsons), e adicione os seguintes scripts (dentro da tag head): 
+
+**Obs.: Não se preocupe, esse aquivos só irão se utilizados por códigos que serão estregados prontos pra você**
 
 
 
-Muitos devem ter percebido, que durante a atividade da última aula, utilizamos a tag style, para diferenciar nosso elementos. Pórem, agora com os conhecimentos que temos, não precisamos fazer mais isso. Bom, o que iremos fazer é substituir os styles, por uma classes que irão fazer a mesma coisa, porém, agora o código ficará de forma mais organizada e fácil de alterar(se necessário). Essas classes, pórem, já existem desde a criação do projeto, elas estão dentro do nosso arquivo style.css. 
-
-![Imagem do styles.css](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/img3.png)
-
-Como já estamos importando as classes do arquivo styles.css, sua missão agora, é identificar qual classe substituirá cada atributo style, e assim alterar o arquivo do bart.html</br>
-
-#### Adicionando um vídeo a página
-
-Bom, o que iremos fazer agora é adicionar um vídeo qualquer, sobre o bart. Pra isso iremos utilizar a tag **iframe**, essa tag incorpora um conteúdo de um site externo ao seu, e é exatamente o que iremos fazer. <br>
-
-Pesquise no Youtube, por qualquer vídeo sobre "Bart Simpsons".
-
-![mostando como pegar iframe no Youtube](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoComoPegarIframeNoYoutube.gif)
-
-Logo após, faça como a demostração acima, copie a tag que o youtube já te entrega pronta, e coloque entre uma **nova section**, por exemplo:
-
-~~~
-
-  ... 
-   <section>
-     
-     Coloque a tag iframe aqui!
-   
-   </section>
-  ...
-
-~~~
-
-Perceba, que agora há um vídeo na sua página, porém ele está posicionado de uma forma que não queremos. O que vamos fazer é deixá-lo centralizado. Pra fazer isso utilizaremos a display flex (a partir de agora é importante, que vocês aprendam um pouco sobre essa propriedade, veja mais em **[faq](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/aula4-exercicios/README.md#faq-perguntas-frequentes)**), essa propriedade, irá mudar o comportamento do nosso elemento, permitindo que possamos utilizar novas propriedades pra realizar o alinhamento. Pois bem, adicione uma class, chamada "alinharAoCentro", e coloque dentro do escopo da tag **section**:
-
-~~~  
-   <section class="alinharAoCentro">
-     <iframe  ...... >
-
-     </iframe>
-  </section>   
-  
-~~~
-
-Agora dentro do arquivo de CSS do bart, crie uma **class**, com o mesmo nome que acionamos a classe, anteriormente, dentro do escopo da tag section. Agora, dentro dele adicione as seguintes propriedades:
-
-~~~
-  .alinharAoCentro{
-    display: flex;
-    justify-content: center;
-  }
-~~~
-
-A propriedade display, irá mudar o comportamento geral do elemento, e a propriedade justify-content, permitirá alinhar o elemento na horizontal, neste caso, ao centro.<br>
-Feito isso, perceba que ele talvez ele ainda não esteja na posição que você deseja. Tente posicioná-lo, utilizando propriedades que já vimos nas aulas anteriores.
-
-Agora, vamos utilizar um id, pra personalizar um pouco nosso iframe. Adicione um **id**, chamado vídeo e coloque dentro do escopo da tag **iframe**. Depois disso, vá até o arquivo de CSS do bart, e crie um id, como o mesmo nome do id adicionado dentro do iframe. Neste ponto, o que você deve fazer é utilizar sua criativide, talvez acionar uma borda, uma cor de fundo, mas tente estilizar o iframe. 
-
-Por fim sua página do bart, deve estar similar a página abaixo:
-
-![Mostrando página do Bart com vídeo, utilizando Iframe](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/MostrandoPaginaDoBartComVideo.gif)
 
 
 
-### Criar o restante das páginas, ou seja a dos outros personagens
-
-A partir desse ponto, as atividades de cada um irão se diferenciar tanto na criatividade, quanto na aplicação. Porém, você deverá segui mais ou menos o mesmo modelo das páginas anteriores. Bom, o que você deverá fazer daqui pra frente, é utilizar todos os padrões e conteúdos aprendidos durante as duas outras práticas, e fazer as páginas dos demais personagens, Maggie, Lisa e Marge. Lembrando, que após terminar, você deverá adicionar os links pras essas páginas, dentro daquela seção de links que alteramos lá na prática 1 (a das fotinhas dos personagens).
 
 - [X] Dar continuidade ao projeto
 - [X] Utilizar class e id 
