@@ -69,6 +69,29 @@ No exemplo acima, fazemos uma interpolação com cada um dos elementos da lista,
 O exemplo acima reduz a quantidade de linhas de código do nosso programa, já que agora não precisamos mais usar nomes[0],nomes [1], nomes [2],nomes[3], pois o i que agora oculpa o espaço entre colchetes '[i]',muda a cada interação do loop.
 **Obs.: Teste os exemplos acima**
 
+- **Adicionando HTML e CSS através do Javascript**
+
+Como vimos na última aula, é possível adicionar HTML e CSS através de um código em javascript. Bom,pra aplicar esse conceito e relebramos o que vimos em aula, vamo primeiro contruir o seguinte HTML:
+
+~~~
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Página de Teste</title>
+    </head>
+
+    <body>
+        <div id="caixa">
+            <!-- O script irá adicionar "automáticamente" a lista aqui --> 
+        </div>
+    </body>
+</html>
+~~~
+
+
 
 ### Começando a alterar o HTML e CSS com Javascript
 
@@ -91,7 +114,7 @@ Bom, como já foi dito é possivél alterar o HTML e o CSS, utilizando Javascrip
     <script type="text/javascript" src="index.js"></script>
 ~~~
 
-Feito isso vamo entender o que iremos fazer. Bom, a ideia aqui é utilizar o Javascript pra adicionar HTML e CSS, de forma que seja realmente vantajoso utilizá-lo ao invés de alterar diretamente, então o que iremos fazer é adicionar uma quantidade relativamente grande no nosso site, porém utilizando javascript. Esses **[dados](https://raw.githubusercontent.com/UserZeca/Enxurrada-de-Bits-Exercicios/master/docs/Characters.csv)** que iremos adicionar, estão na branch master do nosso projeto, e serão capturados por um dos arquivos que você baixou, index.js. A seguir uma esplicação de como o dados estão está organizados (**Não se preocupe muito, é só para vocês terem uma ideia**).
+Feito isso vamo entender o que iremos fazer. Bom, a ideia aqui é utilizar o Javascript pra adicionar HTML e CSS, de forma que seja realmente vantajoso utilizá-lo ao invés de alterar diretamente, então o que iremos fazer é adicionar uma quantidade relativamente grande no nosso site, porém utilizando javascript. Esses **[dados](https://raw.githubusercontent.com/UserZeca/Enxurrada-de-Bits-Exercicios/master/docs/Characters.csv)** que iremos adicionar, estão na branch master do nosso projeto, e serão capturados por um dos arquivos que você baixou,o index.js. A seguir uma explicação de como o dados estão organizados (**Não se preocupe muito, é só para vocês terem uma ideia**).
 
 #### Arquivo CSV(O arquivo que contém os dados)
 
