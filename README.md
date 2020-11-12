@@ -179,19 +179,186 @@ for(let i = 0; i < nomes.length; i++){
 Depois de criar cada elemento, devemos agora relacioná-los, e nesse caso devemos adicionar o conteudoElementoLista ao elementoLista, e adicionar o elementoLista a lista. Pra isso, vamos utilizar o método appendChild, que adiciona um 'filho' a um elemento:
 
 ~~~~
-
 let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
  let turmas = ['302', '303', '305, '303'];
 
 for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
    let elementoLista = document.createElement('li'); 
-   let conteudoElementoLista = document.createTextNode(lista[i]);
+   let conteudoElementoLista = document.createTextNode(nomes[i]);
    
    elementoLista.appendChild(counteudoElementoLista);
    lista.appendChild(elementoLista);
 } 
 ~~~~
+
+Perceba que agora criamos a seguinte estrutura:
+~~~~
+<ul>
+   <li>Maria</li>
+</ul>
+~~~~
+
+Entretanto, ainda falta a sub lista que devemos adicionar. Pra adicionar ela repetimos o mesmo processo que fizemos com a lista(primeira ul):
+
+~~~~
+let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   let lista = document.createElement('ul'); 
+   let elementoLista = document.createElement('li'); 
+   let conteudoElementoLista = document.createTextNode(nomes[i]);
+   
+   elementoLista.appendChild(counteudoElementoLista);
+   lista.appendChild(elementoLista);
+   
+   let subLista = document.createElement('ul'); 
+   let elementoSubLista = document.createElement('li'); 
+   let conteudoElementoSubLista = document.createTextNode(turmas[i]);
+   
+   elementoSubLista.appendChild(counteudoElementoSubLista);
+   subLista.appendChild(elementoSubLista);
+ 
+} 
+~~~~
+
+Perceba que a sub lista foi criar acima, porém ainda não relacionamos a sub lista(segunda ul) com a lista(primeira ul), e é exatamente o que faremos agora:
+
+~~~~
+let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   let lista = document.createElement('ul'); 
+   let elementoLista = document.createElement('li'); 
+   let conteudoElementoLista = document.createTextNode(nomes[i]);
+   
+   elementoLista.appendChild(counteudoElementoLista);
+   lista.appendChild(elementoLista);
+   
+   let subLista = document.createElement('ul'); 
+   let elementoSubLista = document.createElement('li'); 
+   let conteudoElementoSubLista = document.createTextNode(turmas[i]);
+   
+   elementoSubLista.appendChild(counteudoElementoSubLista);
+   subLista.appendChild(elementoSubLista);
+   
+   lista.appendChild(subLista);
+} 
+~~~~
+
+Feito isso perceba que a estrutura que desejavamos foi feita, porém, nós ainda não adicionamos essa lista no nosso HTML, isso porque pra isso precisamos iserir os elementos na 
+árvore DOM. Bom, recaptulando antes haviamos criado uma div com um id,e é isso que vamos utilizar agora; pra adicionar algo na árvore DOM precisamos de uma referencia, e pra isso criamos a div com um id. Nossa ideia aqui, é adicionar a lista dentro da div, e para isso iremos utilizar dois métodos:
+
+- getElementById : seleciona o elemento com o id passado e retorná-o. (Lembrando que é por esse motivo que não podemos utilizar duas vezes um mesmo id em uma página, já que utilizando esse método, somente um elemento é retornado, ou seja caso haja um outro depois do primeiro retornado, ele é completamente ignorado)
+
+- insertAdjacentElement : Como o proprio nome diz, irá adicionar de forma adjacente a o elemento passado por parâmentro.
+
+**obs: caso não tenha entendido sobre esses métodos, consulte as aulas anteriores**
+
+Bem, com isso em mente vamos então realizar a inserção:
+
+~~~~
+let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   let lista = document.createElement('ul'); 
+   let elementoLista = document.createElement('li'); 
+   let conteudoElementoLista = document.createTextNode(nomes[i]);
+   
+   elementoLista.appendChild(counteudoElementoLista);
+   lista.appendChild(elementoLista);
+   
+   let subLista = document.createElement('ul'); 
+   let elementoSubLista = document.createElement('li'); 
+   let conteudoElementoSubLista = document.createTextNode(turmas[i]);
+   
+   elementoSubLista.appendChild(counteudoElementoSubLista);
+   subLista.appendChild(elementoSubLista);
+   
+   lista.appendChild(subLista);
+   
+   document.getElementById('caixa').insertAdjacentElement('beforeend', lista);
+} 
+~~~~
+
+Perceba que se salvarmos o código e recarregarmos o navegador, a lista irá aparecer.
+
+FOTO
+
+
+Agora o que nos falta é adicionar o CSS, para isso vamos fazer o mesmo processo de criar e adicionar algo a o elemento, porém aqui iremos criar um atributo, no nosso caso um 'id', e depois disso adicionar algo a ele, que no nosso caso é um dos id's que criamos no CSS: 
+
+~~~
+let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   let lista = document.createElement('ul'); 
+   let elementoLista = document.createElement('li'); 
+   let conteudoElementoLista = document.createTextNode(nomes[i]);
+   
+   elementoLista.appendChild(counteudoElementoLista);
+   lista.appendChild(elementoLista);
+   
+   let subLista = document.createElement('ul'); 
+   let elementoSubLista = document.createElement('li'); 
+   let conteudoElementoSubLista = document.createTextNode(turmas[i]);
+   
+   elementoSubLista.appendChild(counteudoElementoSubLista);
+   subLista.appendChild(elementoSubLista);
+   
+   lista.appendChild(subLista);
+   
+   let estilo1 = document.createAttribute('id');
+   estilo1.value = "lista";
+   conteudoElementoLista.setAttributeNode(estilo1);
+   
+   document.getElementById('caixa').insertAdjacentElement('beforeend', lista);
+} 
+~~~~
+
+Perceba que criamos um  estilo, e setamos o vamos dele para um dos id's que criamos no CSS, e por fim adicionamos ele ao conteudoElementoLista, que representa o primeiro 'li' da lista(primeiro ul). 
+
+Bom, agora é só replicar o processo para o conteudoElementoSubLista, criando então um estilo pra ele, atribuindo um id a ele, e por fim adicionando de fato o estilo nele:
+
+~~~
+let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   let lista = document.createElement('ul'); 
+   let elementoLista = document.createElement('li'); 
+   let conteudoElementoLista = document.createTextNode(nomes[i]);
+   
+   elementoLista.appendChild(counteudoElementoLista);
+   lista.appendChild(elementoLista);
+   
+   let subLista = document.createElement('ul'); 
+   let elementoSubLista = document.createElement('li'); 
+   let conteudoElementoSubLista = document.createTextNode(turmas[i]);
+   
+   elementoSubLista.appendChild(counteudoElementoSubLista);
+   subLista.appendChild(elementoSubLista);
+   
+   lista.appendChild(subLista);
+   
+   let estilo1 = document.createAttribute('id');
+   estilo1.value = "lista";
+   conteudoElementoLista.setAttributeNode(estilo1);
+   
+   let estilo2 = document.createAttribute('id');
+   estilo1.value = "sub-lista";
+   conteudoElementoSubLista.setAttributeNode(estilo2);
+   
+   document.getElementById('caixa').insertAdjacentElement('beforeend', lista);
+ 
+} 
+~~~~
+
+
 
 
 
