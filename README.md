@@ -482,10 +482,10 @@ Enfim, se você chegou até aqui, eu queria agradecer o empenho e a dedicação 
 
 
 #### O que são métodos em javascript?
-[Link para mais informações](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Definicoes_metodos)
++ [Link para mais informações](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Definicoes_metodos)
 
 #### O que é um arquivo CSV?
-[Link para saber mais sobre atributos](https://rockcontent.com/br/blog/csv/)
++ [Link para saber mais sobre atributos](https://rockcontent.com/br/blog/csv/)
 
 #### O que é o **Enxurrada de Bits**?
 + Enxurrada de Bits é um projeto de extensão do CEFET-MG, que visa capacitar estudantes de escolas publicas, por meio de cursos de Programação Web, Robótica e Informática Básica. Além de participar e promover eventos, relacionados a área de tecnologia.</br> Saiba mais, pelo [Instagram](https://www.instagram.com/enxurradadebits/?hl=pt-br), e pelo [Site](http://www.enxurradadebits.cefetmg.br/o-enxurrada-de-bits/) do Projeto.
