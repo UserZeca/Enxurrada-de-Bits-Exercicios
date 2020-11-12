@@ -8,7 +8,7 @@
 
  Nessa prática você irá aprender a:
 
-- [ ] Ulilizar loops pra percorrer uma váriavel
+- [ ] Utilizar loops pra percorrer uma váriavel
 - [ ] Adicionar HTML e CSS utilizando Javascript
  
 ### Novo ponto de aprendizado
@@ -363,6 +363,7 @@ Se você chegou até aqui, e fez seguiu exatamente os passos anteriores, verá q
 Então, esse erro está ocorrendo porque o javascript não conseguiu achar o id que você passou, "uai" mas a gente não criou tudo certinho, porque o javascript não tá achando esse id no DOM? Bem, o motivo desse erro é que o javascript é carregado antes da página toda carregar, ou seja antes da árvore de elementos do DOM, ser preechida por completo, em outras palavras ele não consegue achar o elemento porque ele está procurando antes do tempo. Pra resolver isso, nos utilizamos um evento do javascript chamado onload, que só irá executar quando a 'windown' carregar por completo, e esse evento em questão irá executar uma função anônima(sem nome), e dentro dessa função anônima que devemos chamar a fazer nosso algoritmo.
 
 **OBS.: É importante lembrar, que podemos contruir funções fora do window.onload, mas devemos sempre chamá-las dentro da função que irá ser passada pra windown.onload.**  
+**OBS.: () => { } é similar a function(){}, ambas são funções anônimas.
 
 
 ~~~
@@ -451,7 +452,7 @@ Bom, acima podemos ver que os arquivos csv são organizados de forma similar a u
 
 Esse arquivo vai tratar de retirar os dados da internet(específicamente do repositorio do github), tratar esses dados, e transformá-los em duas listas, uma que representa os Character(personagens) e outra Description/role(Descrição/Função):
 
-Foto          
+![Programa base atividade](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/programaBaseJSHTMLCSS.png)
           
 
 **Obs: Não se preucupe com as palavras reservadas *'await'* e *'async'*, elas são necessárias pra outra parte do script, com a qual você não irá trabalhar diretamente**
@@ -460,7 +461,7 @@ Perceba que as variáveis de lista já foram criadas pra você, a sua missão ag
 
 Enfim, se você chegou até aqui, eu queria agradecer o empenho e a dedicação de cada um, e dizer que foi um prazer produzir conteúdo pra vocês. Muito obrigado por me proporcionarem essa experiência como """professor""" ;).
 
-- [X] Ulilizar loops pra percorrer uma váriavel
+- [X] Utilizar loops pra percorrer uma váriavel
 - [X] Adicionar HTML e CSS utilizando Javascript
 
 
