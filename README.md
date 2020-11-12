@@ -95,11 +95,11 @@ Em seguida o CSS (com o nome style.css):
 
 ~~~
 
-#lista{
+.lista{
   color: blue;
 }
 
-#sub-lista{
+.sub-lista{
   color: red;
 }
 
@@ -284,12 +284,7 @@ for(let i = 0; i < nomes.length; i++){
 } 
 ~~~~
 
-Perceba que se salvarmos o código e recarregarmos o navegador, a lista irá aparecer.
-
-FOTO
-
-
-Agora o que nos falta é adicionar o CSS, para isso vamos fazer o mesmo processo de criar e adicionar algo a o elemento, porém aqui iremos criar um atributo, no nosso caso um 'id', e depois disso adicionar algo a ele, que no nosso caso é um dos id's que criamos no CSS: 
+Agora o que nos falta é adicionar o CSS, para isso vamos fazer o mesmo processo de criar e adicionar algo a o elemento, porém aqui iremos criar um atributo, no nosso caso uma 'class', e depois disso adicionar algo a ele, que no nosso caso é uma das classes que criamos no CSS: 
 
 ~~~
 let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
@@ -312,7 +307,7 @@ for(let i = 0; i < nomes.length; i++){
    
    lista.appendChild(subLista);
    
-   let estilo1 = document.createAttribute('id');
+   let estilo1 = document.createAttribute('class');
    estilo1.value = "lista";
    conteudoElementoLista.setAttributeNode(estilo1);
    
@@ -320,9 +315,9 @@ for(let i = 0; i < nomes.length; i++){
 } 
 ~~~~
 
-Perceba que criamos um  estilo, e setamos o vamos dele para um dos id's que criamos no CSS, e por fim adicionamos ele ao conteudoElementoLista, que representa o primeiro 'li' da lista(primeiro ul). 
+Perceba que criamos um  estilo, e setamos o vamos dele para uma das classes que criamos no CSS, e por fim adicionamos ela ao conteudoElementoLista, que representa o primeiro 'li' da lista(primeiro ul). 
 
-Bom, agora é só replicar o processo para o conteudoElementoSubLista, criando então um estilo pra ele, atribuindo um id a ele, e por fim adicionando de fato o estilo nele:
+Bom, agora é só replicar o processo para o conteudoElementoSubLista, criando então um estilo pra ele, atribuindo uma classe a ele, e por fim adicionando de fato o estilo nele:
 
 ~~~
 let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
@@ -345,11 +340,11 @@ for(let i = 0; i < nomes.length; i++){
    
    lista.appendChild(subLista);
    
-   let estilo1 = document.createAttribute('id');
+   let estilo1 = document.createAttribute('class');
    estilo1.value = "lista";
    conteudoElementoLista.setAttributeNode(estilo1);
    
-   let estilo2 = document.createAttribute('id');
+   let estilo2 = document.createAttribute('class');
    estilo1.value = "sub-lista";
    conteudoElementoSubLista.setAttributeNode(estilo2);
    
@@ -410,6 +405,9 @@ window.onload = function() {
 
 O resultado deverá ser algo como: 
 
+<p align="center">
+   <img src="https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/listaHTMLUsandoJs.png" alt="imagem da lista HTML utilizando javascript" />
+</p>
 
 ### Começando a alterar o HTML e CSS com Javascript
 
@@ -453,7 +451,8 @@ Bom, acima podemos ver que os arquivos csv são organizados de forma similar a u
 
 Esse arquivo vai tratar de retirar os dados da internet(específicamente do repositorio do github), tratar esses dados, e transformá-los em duas listas, uma que representa os Character(personagens) e outra Description/role(Descrição/Função):
 
-Foto
+Foto          
+          
 
 **Obs: Não se preucupe com as palavras reservadas *'await'* e *'async'*, elas são necessárias pra outra parte do script, com a qual você não irá trabalhar diretamente**
 
