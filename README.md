@@ -360,7 +360,10 @@ for(let i = 0; i < nomes.length; i++){
 
 Se você chegou até aqui, e fez seguiu exatamente os passos anteriores, verá que seu programa ainda não deu certo. Se você abrir seu console, provávelmente verá o seguinte erro:
 
-Foto
+
+<p align="center">
+   <img src="https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/erroCarregarDOM.png" alt="Foto de Erro ao tentar acessar o ID" />
+</p>
 
 Então, esse erro está ocorrendo porque o javascript não conseguiu achar o id que você passou, "uai" mas a gente não criou tudo certinho, porque o javascript não tá achando esse id no DOM? Bem, o motivo desse erro é que o javascript é carregado antes da página toda carregar, ou seja antes da árvore de elementos do DOM, ser preechida por completo, em outras palavras ele não consegue achar o elemento porque ele está procurando antes do tempo. Pra resolver isso, nos utilizamos um evento do javascript chamado onload, que só irá executar quando a 'windown' carregar por completo, e esse evento em questão irá executar uma função anônima(sem nome), e dentro dessa função anônima que devemos chamar a fazer nosso algoritmo.
 
@@ -458,11 +461,8 @@ Perceba que as variáveis de lista já foram criadas pra você, a sua missão ag
 
 Enfim, se você chegou até aqui, eu queria agradecer o empenho e a dedicação de cada um, e dizer que foi um prazer produzir conteúdo pra vocês. Muito obrigado por me proporcionarem essa experiência como """professor""" ;).
 
-- [X] Dar continuidade ao projeto
-- [X] Utilizar class e id 
-- [X] Aprender a colocar um vídeo na sua página 
-- [X] Criar o restante das páginas, ou seja a dos outros personagens
-
+- [X] Ulilizar loops pra percorrer uma váriavel
+- [X] Adicionar HTML e CSS utilizando Javascript
 
 
 ## FAQ *(perguntas frequentes)*
