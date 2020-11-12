@@ -91,6 +91,110 @@ Como vimos na última aula, é possível adicionar HTML e CSS através de um có
 </html>
 ~~~
 
+Em seguida o CSS (com o nome style.css):
+
+~~~
+
+#lista{
+  color: blue;
+}
+
+#sub-lista{
+  color: red;
+}
+
+~~~
+
+Perceba dentro do corpo da nossa página, temos uma div com um id "caixa", e esse id será de muita importância pra nós.
+
+Pois bem, neste nosso exemplo vamos utilizar duas listas:
+~~~
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+~~~
+
+Essas duas listas irão ser adicionadas ao nosso HTML, de forma que se torne uma lista não ordenada (ul). Pra isso primeiro vamos levar em consideração que as listas são "correspondentes", ou seja 'Maria' é da turma '302', assim como 'Marcus' é da Turma '303', e por aí em diante.
+
+Partindo para parte de adicionar o HTML através do Javascript, vamos utilizar aquela mesma estratégia de loops junto com listas:
+
+~~~
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   // O algoritmo virá aqui
+}
+~~~
+
+Pois bem, a ideia aqui é adicionar uma lista não ordenada dentro da outra, por exemplo:
+
+~~~
+
+<ul>
+   <li> Maria </li>
+   <ul>
+     <li> 302 </li>
+   </ul>
+</ul>
+   
+~~~
+
+Perceba que temos uma lista dentro da outra, ou seja a primeira 'ul' terá dois filhos, uma 'li' e uma 'ul', e a partir disso vamos contruir então nosso código. Bom primeiro vamos criar a lista não ordenada(ul), dentro do loop:
+
+~~~
+let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   let lista = document.createElement('ul'); 
+} 
+~~~
+
+Em seguida, vamos criar nosso elemento li:
+
+~~~
+let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   let lista = document.createElement('ul'); 
+   let elementoLista = document.createElement('li'); 
+} 
+~~~
+
+Agora vamos criar conteúdo pra o elementoLista, no nosso caso iremos criar um texto, por isso vamos utilizar o método 'createTextNode':
+
+~~~~
+
+let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   let lista = document.createElement('ul'); 
+   let elementoLista = document.createElement('li'); 
+   let conteudoElementoLista = document.createTextNode(lista[i]);
+} 
+~~~~
+
+Depois de criar cada elemento, devemos agora relacioná-los, e nesse caso devemos adicionar o conteudoElementoLista ao elementoLista, e adicionar o elementoLista a lista. Pra isso, vamos utilizar o método appendChild, que adiciona um 'filho' a um elemento:
+
+~~~~
+
+let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+ let turmas = ['302', '303', '305, '303'];
+
+for(let i = 0; i < nomes.length; i++){
+   let lista = document.createElement('ul'); 
+   let elementoLista = document.createElement('li'); 
+   let conteudoElementoLista = document.createTextNode(lista[i]);
+   
+   elementoLista.appendChild(counteudoElementoLista);
+   lista.appendChild(elementoLista);
+} 
+~~~~
+
+
+
 
 
 ### Começando a alterar o HTML e CSS com Javascript
