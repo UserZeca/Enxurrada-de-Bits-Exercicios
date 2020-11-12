@@ -448,10 +448,15 @@ Bom, acima podemos ver que os arquivos csv são organizados de forma similar a u
 
 #### Arquivo index.js
 
-Esse arquivo vai tratar de  
+Esse arquivo vai tratar de retirar os dados da internet(específicamente do repositorio do github), tratar esses dados, e transformá-los em duas listas, uma que representa os Character(personagens) e outra Description/role(Descrição/Função):
 
+Foto
 
+**Obs: Não se preucupe com as palavras reservadas *'await'* e *'async'*, elas são necessárias pra outra parte do script, com a qual você não irá trabalhar diretamente**
 
+Perceba que as variáveis de lista já foram criadas pra você, a sua missão agora é transformar essas duas listas, em uma lista dentro da outra, como no exemplo onde relembramos como adicionar HTML e CSS com javascript. 
+
+Enfim, se você chegou até aqui, eu queria agradecer o empenho e a dedicação de cada um, e dizer que foi um prazer produzir conteúdo pra vocês. Muito obrigado por me proporcionarem essa experiência como """professor""" ;).
 
 - [X] Dar continuidade ao projeto
 - [X] Utilizar class e id 
