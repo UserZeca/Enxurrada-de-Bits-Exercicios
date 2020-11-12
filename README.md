@@ -358,10 +358,54 @@ for(let i = 0; i < nomes.length; i++){
 } 
 ~~~~
 
+Se você chegou até aqui, e fez seguiu exatamente os passos anteriores, verá que seu programa ainda não deu certo. Se você abrir seu console, provávelmente verá o seguinte erro:
+
+Foto
+
+Então, esse erro está ocorrendo porque o javascript não conseguiu achar o id que você passou, "uai" mas a gente não criou tudo certinho, porque o javascript não tá achando esse id no DOM? Bem, o motivo desse erro é que o javascript é carregado antes da página toda carregar, ou seja antes da árvore de elementos do DOM, ser preechida por completo, em outras palavras ele não consegue achar o elemento porque ele está procurando antes do tempo. Pra resolver isso, nos utilizamos um evento do javascript chamado onload, que só irá executar quando a 'windown' carregar por completo, e esse evento em questão irá executar uma função anônima(sem nome), e dentro dessa função anônima que devemos chamar a fazer nosso algoritmo.
+
+**OBS.: É importante lembrar, que podemos contruir funções fora do window.onload, mas devemos sempre chamá-las dentro da função que irá ser passada pra windown.onload.**  
 
 
+~~~
+window.onload = function() {
 
+   let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
+    let turmas = ['302', '303', '305, '303'];
 
+   for(let i = 0; i < nomes.length; i++){
+      let lista = document.createElement('ul'); 
+      let elementoLista = document.createElement('li'); 
+      let conteudoElementoLista = document.createTextNode(nomes[i]);
+
+      elementoLista.appendChild(counteudoElementoLista);
+      lista.appendChild(elementoLista);
+
+      let subLista = document.createElement('ul'); 
+      let elementoSubLista = document.createElement('li'); 
+      let conteudoElementoSubLista = document.createTextNode(turmas[i]);
+
+      elementoSubLista.appendChild(counteudoElementoSubLista);
+      subLista.appendChild(elementoSubLista);
+
+      lista.appendChild(subLista);
+
+      let estilo1 = document.createAttribute('id');
+      estilo1.value = "lista";
+      conteudoElementoLista.setAttributeNode(estilo1);
+
+      let estilo2 = document.createAttribute('id');
+      estilo1.value = "sub-lista";
+      conteudoElementoSubLista.setAttributeNode(estilo2);
+
+      document.getElementById('caixa').insertAdjacentElement('beforeend', lista);
+
+   } 
+
+}
+~~~
+
+O resultado deverá ser algo como: 
 
 
 ### Começando a alterar o HTML e CSS com Javascript
@@ -404,7 +448,7 @@ Bom, acima podemos ver que os arquivos csv são organizados de forma similar a u
 
 #### Arquivo index.js
 
-Esse arquivo vai tratar 
+Esse arquivo vai tratar de  
 
 
 
