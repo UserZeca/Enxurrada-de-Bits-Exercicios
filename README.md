@@ -467,27 +467,25 @@ Enfim, se você chegou até aqui, eu queria agradecer o empenho e a dedicação 
 
 ## FAQ *(perguntas frequentes)*
 
-#### O que é display ?
-+ Display é uma das propriedades mais importante que possuimos no css, já que ela controla o layout da nossa página html. </br>
+#### querySelector ?
++ Informações sobre o querySelector </br>
 [Link para mais informações](https://pt-br.learnlayout.com/display.html#:~:text=display%20%C3%A9%20a%20propriedade%20mais,%C3%A9%20normalmente%20block%20ou%20inline%20.)
 
 
-#### O que é display flex ?
-+ Display flex, é uma propriedade, utilizada pra modificar o comportamento de elementos da nossa página. </br>
-[Link para mais informações](https://origamid.com/projetos/flexbox-guia-completo/)
+#### Funções anônimas ?
++ Funções anônimas são basicamente funções que podem ser chamadas sem ter a necessidade de ter um nome </br>
+[Link para mais informações](https://ricardo-reis.medium.com/fun%C3%A7%C3%B5es-an%C3%B4nimas-javascript-92361075fd89)
 
-#### O que é iframe ?
-+ Tag utilizada para adicionar conteúdos de outras páginas/sites.</br>
-[Link para mais informações](https://www.hostinger.com.br/tutoriais/o-que-e-iframe/)
+#### O que significa windown.onload ?
++ windown é o elemento que representa a janela da nossa página, já onload é o evento que diz quando essa janela foi carregada </br>
+[Link para mais informações](https://developer.mozilla.org/pt-BR/docs/Web/API/GlobalEventHandlers/onload)
 
 
-#### O que é a tag *section*?
-+ Para essa prática, não é necessário que você saiba seu funcionamento, mas caso queira saber mais, segue o link:</br>
-[Tag section](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/section)
+#### O que são métodos em javascript?
+[Link para mais informações](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Definicoes_metodos)
 
-#### O que são **atributos**?
-+ Estes conceitos irão ser melhor abordados nas próximas aulas, mas segue o link para mais informações:</br>
-[Link para saber mais sobre atributos](https://tableless.github.io/iniciantes/manual/html/oquetags.html)
+#### O que é um arquivo CSV?
+[Link para saber mais sobre atributos](https://rockcontent.com/br/blog/csv/)
 
 #### O que é o **Enxurrada de Bits**?
 + Enxurrada de Bits é um projeto de extensão do CEFET-MG, que visa capacitar estudantes de escolas publicas, por meio de cursos de Programação Web, Robótica e Informática Básica. Além de participar e promover eventos, relacionados a área de tecnologia.</br> Saiba mais, pelo [Instagram](https://www.instagram.com/enxurradadebits/?hl=pt-br), e pelo [Site](http://www.enxurradadebits.cefetmg.br/o-enxurrada-de-bits/) do Projeto.
