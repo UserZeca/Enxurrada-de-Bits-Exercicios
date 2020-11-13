@@ -20,7 +20,7 @@ Retomando o conteúdo de programação WEB, o que iremos ver aqui nessa prática
 ### Pontos a serem abordados antes da prática
 
 
-- **Variáveis** : Como já estudamos, variáveis podem conter diferentes tipos de dados, como texto, número inteiro, número irracional, etc. Entretanto, nós não virmos as diferentes maneiras com que os dados podem ser agrupados, e durante essa prática teremos a necessidade de aprender sobre uma das formas de organizar os dados. 
+- **Variáveis** : Como já estudamos, variáveis podem conter diferentes tipos de dados, como texto, número inteiro, número irracional, etc. Entretanto, nós não vimos as diferentes maneiras com que os dados podem ser agrupados, e durante essa prática teremos a necessidade de aprender sobre uma das formas de organizar os dados. 
 Pois bem, observe o seguinte exemplo:
 ~~~  
    let nome1 = 'Maria';
@@ -28,7 +28,7 @@ Pois bem, observe o seguinte exemplo:
    let nome3 = 'Carolina';
    let nome4 = 'João';
 ~~~
-O exemplo acima, nos mostra a declaração de 4 variáveis, as quais são nomes de pessoas, ou seja um texto(string). Bem, imagine que agora eu tenha que ter 150 nomes, logo pelo seguindo a ideia que fizemos acima deveriamos declarar 150 variáveis, mas isso é viável?! Se tivessemos 1000 variáveis, 2000, 3000, isso não iria gerar uma quantidade gigantescas de variáveis?! Então, com o fito de resolver esse problema, o que poderiamos fazer é algo como o exemplo abaixo:
+O exemplo acima, nos mostra a declaração de 4 variáveis, as quais são nomes de pessoas, ou seja um texto(string). Bem, imagine que agora eu tenha que ter 150 nomes, logo seguindo a idéia que fizemos acima deveriamos declarar 150 variáveis, mas isso é viável?! Se tivessemos 1000 variáveis, 2000, 3000, isso não iria gerar uma quantidade gigantescas de variáveis?! Então, com o fito de resolver esse problema, o que poderiamos fazer é algo como o exemplo abaixo:
 ~~~  
    let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];  
 ~~~
@@ -43,8 +43,8 @@ Entretanto, quando utilizamos somente nome da lista, como fizemos no exemplo aci
    console.log(nomes[0]);
    console.log(nomes[3]);
 ~~~
-Observando o exemplo acima, temos uma diferença do estavamos acostumados, o que estamos fazendo agora é utilizar colchetes '[]' e dentro deles colocarmos um número. Mas o que isso significa?! Bom, quando utilizamos isso, juntamente com o nome da lista, conseguimos acessar as posições individuais da lista. Essas posições começam sempre com 0, vão até a quantidade de elementos - 1 , ou seja no exemplo acima temos 4 elementos na lista, porém as posições dos elementos vão de 0 a 3.  
-Caso você execute o exemplo acima, você ira peceber que os nomes 'Maria' e 'João', serão exibido, isso porque são 0 e 3, as respectivas posições dos elementos 'Maria' e 'João'.
+Observando o exemplo acima, temos uma diferença do que estávamos acostumados, o que estamos fazendo agora é utilizar colchetes '[]' e dentro deles colocarmos um número. Mas o que isso significa?! Bom, quando utilizamos isso, juntamente com o nome da lista, conseguimos acessar as posições individuais da lista. Essas posições começam sempre com 0, vão até a quantidade de elementos - 1 , ou seja no exemplo acima temos 4 elementos na lista, porém as posições dos elementos vão de 0 a 3.  
+Caso você execute o exemplo acima, você irá perceber que os nomes 'Maria' e 'João', serão exibido, isso porque são 0 e 3, as respectivas posições dos elementos 'Maria' e 'João'.
 **Obs.: Teste os exemplos acima**
 
 - **Loops** e **Lista** : Agora iremos entender como combinar um loop e uma lista, e porque isso é importante. Observe o exemplo abaixo:
@@ -71,7 +71,7 @@ O exemplo acima reduz a quantidade de linhas de código do nosso programa, já q
 
 - **Adicionando HTML e CSS através do Javascript**
 
-Como vimos na última aula, é possível adicionar HTML e CSS através de um código em javascript. Bom,pra aplicar esse conceito e relebramos o que vimos em aula, vamo primeiro contruir o seguinte HTML:
+Como vimos na última aula, é possível adicionar HTML e CSS através de um código em javascript. Bom,pra aplicar esse conceito e rever o que vimos em aula, vamos primeiro construir o seguinte HTML:
 
 ~~~
 <!DOCTYPE html>
@@ -223,7 +223,7 @@ for(let i = 0; i < nomes.length; i++){
 } 
 ~~~~
 
-Perceba que a sub lista foi criar acima, porém ainda não relacionamos a sub lista(segunda ul) com a lista(primeira ul), e é exatamente o que faremos agora:
+Perceba que a sub lista foi criada acima, porém ainda não relacionamos a sub lista(segunda ul) com a lista(primeira ul), e é exatamente o que faremos agora:
 
 ~~~~
 let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
@@ -248,7 +248,7 @@ for(let i = 0; i < nomes.length; i++){
 } 
 ~~~~
 
-Feito isso perceba que a estrutura que desejavamos foi feita, porém, nós ainda não adicionamos essa lista no nosso HTML, isso porque pra isso precisamos iserir os elementos na 
+Feito isso perceba que a estrutura que desejavamos foi feita, porém, nós ainda não adicionamos essa lista no nosso HTML, isso porque pra isso precisamos inserir os elementos na 
 árvore DOM. Bom, recaptulando antes haviamos criado uma div com um id,e é isso que vamos utilizar agora; pra adicionar algo na árvore DOM precisamos de uma referencia, e pra isso criamos a div com um id. Nossa ideia aqui, é adicionar a lista dentro da div, e para isso iremos utilizar dois métodos:
 
 - getElementById : seleciona o elemento com o id passado e retorná-o. (Lembrando que é por esse motivo que não podemos utilizar duas vezes um mesmo id em uma página, já que utilizando esse método, somente um elemento é retornado, ou seja caso haja um outro depois do primeiro retornado, ele é completamente ignorado)
@@ -315,7 +315,7 @@ for(let i = 0; i < nomes.length; i++){
 } 
 ~~~~
 
-Perceba que criamos um  estilo, e setamos o vamos dele para uma das classes que criamos no CSS, e por fim adicionamos ela ao conteudoElementoLista, que representa o primeiro 'li' da lista(primeiro ul). 
+Perceba que criamos um estilo, e setamos o valor dele para uma das classes que criamos no CSS, e por fim adicionamos ela ao conteudoElementoLista, que representa o primeiro 'li' da lista(primeiro ul). 
 
 Bom, agora é só replicar o processo para o conteudoElementoSubLista, criando então um estilo pra ele, atribuindo uma classe a ele, e por fim adicionando de fato o estilo nele:
 
@@ -353,18 +353,18 @@ for(let i = 0; i < nomes.length; i++){
 } 
 ~~~~
 
-Se você chegou até aqui, e fez seguiu exatamente os passos anteriores, verá que seu programa ainda não deu certo. Se você abrir seu console, provávelmente verá o seguinte erro:
+Se você chegou até aqui, e seguiu exatamente os passos anteriores, verá que seu programa ainda não deu certo. Se você abrir seu console, provávelmente verá o seguinte erro:
 
 
 <p align="center">
    <img src="https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/erroCarregarDOM.png" alt="Foto de Erro ao tentar acessar o ID" />
 </p>
 
-Então, esse erro está ocorrendo porque o javascript não conseguiu achar o id que você passou, "uai" mas a gente não criou tudo certinho, porque o javascript não tá achando esse id no DOM? Bem, o motivo desse erro é que o javascript é carregado antes da página toda carregar, ou seja antes da árvore de elementos do DOM, ser preechida por completo, em outras palavras ele não consegue achar o elemento porque ele está procurando antes do tempo. Pra resolver isso, nos utilizamos um evento do javascript chamado onload, que só irá executar quando a 'windown' carregar por completo, e esse evento em questão irá executar uma função anônima(sem nome), e dentro dessa função anônima que devemos chamar a fazer nosso algoritmo.
+Então, esse erro está ocorrendo porque o javascript não conseguiu achar o id que você passou, "uai" mas a gente não criou tudo certinho, porque o javascript não tá achando esse id no DOM? Bem, o motivo desse erro é que o javascript é carregado antes da página toda carregar, ou seja antes da árvore de elementos do DOM, ser preechida por completo, em outras palavras ele não consegue achar o elemento porque ele está procurando antes do tempo. Pra resolver isso, nos utilizamos um evento do javascript chamado onload, que só irá executar quando a 'window' carregar por completo, e esse evento em questão irá executar uma função anônima(sem nome), e dentro dessa função anônima que devemos chamar a fazer nosso algoritmo.
 
 **OBS.: É importante lembrar, que podemos contruir funções fora do window.onload, mas devemos sempre chamá-las dentro da função que irá ser passada pra windown.onload.**  
 **OBS.: () => { } é similar a function(){}, ambas são funções anônimas.
-
+**OBS.: Ignore as partes que estão marcadas de vermelho.
 
 ~~~
 window.onload = function() {
@@ -412,9 +412,9 @@ O resultado deverá ser algo como:
 
 ### Começando a alterar o HTML e CSS com Javascript
 
-Bom, como já foi dito é possivél alterar o HTML e o CSS, utilizando Javascript, mas por que isso seria necessário?! Eu não poderia simplemente alterar diretamente o HTML e o CSS?! Então existem caso em que ficaria quase impossível alterar manuamente certos conteúdo de uma página, seja pelo tamanho , seja pela mudança frequente dos dados. Dito isso, como resolveriamos este problema?! Bem, existem diversas formas, porém a que iremos abordar aqui é mais simples. Porém, antes de começarmos vamos primeiro importar os novos aquivos que iremos precisar:
+Bom, como já foi dito é possivél alterar o HTML e o CSS, utilizando Javascript, mas por que isso seria necessário?! Eu não poderia simplesmente alterar diretamente o HTML e o CSS?! Então existem casos em que ficaria quase impossível alterar manualmente certos conteúdos de uma página, seja pelo tamanho , seja pela mudança frequente dos dados. Dito isso, como resolveriamos este problema?! Bem, existem diversas formas, porém a que iremos abordar aqui é mais simples. Porém, antes de começarmos vamos primeiro importar os novos aquivos que iremos precisar:
 
-**Obs.: Não se preocupe, esse aquivos só irão ser utilizados por códigos que serão estregados prontos pra você**
+**Obs.: Não se preocupe, esse aquivos só irão ser utilizados por códigos que serão entregados prontos pra você**
 
 - Baixe este **[Arquivo1](https://drive.google.com/file/d/10fKyLZIhMg06s11sSgZxPEZcGwxYjDXL/view?usp=sharing)** e adicione a pasta **src** do seu projeto.
 - Baixe também este **[Arquivo2](https://drive.google.com/file/d/1mNhPiZ5KrA6CBYjB0EoRvu60wp0PamC5/view?usp=sharing)** e adicione a pasta **src** do seu projeto.
