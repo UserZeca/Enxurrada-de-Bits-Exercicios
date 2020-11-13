@@ -461,7 +461,6 @@ Esse arquivo vai tratar de retirar os dados da internet(específicamente do repo
 
 Perceba que as variáveis de lista já foram criadas pra você, a sua missão agora é transformar essas duas listas, em uma lista dentro da outra, como no exemplo onde relembramos como adicionar HTML e CSS com javascript. 
 
-Enfim, se você chegou até aqui, eu queria agradecer o empenho e a dedicação de cada um, e dizer que foi um prazer produzir conteúdo pra vocês. Muito obrigado por me proporcionarem essa experiência como """professor""" ;).
 
 - [X] Utilizar loops pra percorrer uma váriavel
 - [X] Adicionar HTML e CSS utilizando Javascript
