@@ -363,9 +363,9 @@ Se você chegou até aqui, e seguiu exatamente os passos anteriores, verá que s
 
 Então, esse erro está ocorrendo porque o javascript não conseguiu achar o id que você passou, "uai" mas a gente não criou tudo certinho, porque o javascript não tá achando esse id no DOM? Bem, o motivo desse erro é que o javascript é carregado antes da página toda carregar, ou seja antes da árvore de elementos do DOM, ser preechida por completo, em outras palavras ele não consegue achar o elemento porque ele está procurando antes do tempo. Pra resolver isso, nos utilizamos um evento do javascript chamado onload, que só irá executar quando a 'window' carregar por completo, e esse evento em questão irá executar uma função anônima(sem nome), e dentro dessa função anônima que devemos chamar a fazer nosso algoritmo.
 
-**OBS.: É importante lembrar, que podemos contruir funções fora do window.onload, mas devemos sempre chamá-las dentro da função que irá ser passada pra windown.onload.**  
-**OBS.: () => { } é similar a function(){}, ambas são funções anônimas.
-**OBS.: Ignore as partes que estão marcadas de vermelho.
+**Obs.: É importante lembrar, que podemos contruir funções fora do window.onload, mas devemos sempre chamá-las dentro da função que irá ser passada pra windown.onload.**  
+**Obs.: () => { } é similar a function(){}, ambas são funções anônimas.**
+
 
 ~~~
 window.onload = function() {
@@ -416,6 +416,7 @@ O resultado deverá ser algo como:
 Bom, como já foi dito é possivél alterar o HTML e o CSS, utilizando Javascript, mas por que isso seria necessário?! Eu não poderia simplesmente alterar diretamente o HTML e o CSS?! Então existem casos em que ficaria quase impossível alterar manualmente certos conteúdos de uma página, seja pelo tamanho , seja pela mudança frequente dos dados. Dito isso, como resolveriamos este problema?! Bem, existem diversas formas, porém a que iremos abordar aqui é mais simples. Porém, antes de começarmos vamos primeiro importar os novos aquivos que iremos precisar:
 
 **Obs.: Não se preocupe, esse aquivos só irão ser utilizados por códigos que serão entregados prontos pra você**
+**Obs.: Ignore as partes que estão marcadas de vermelho.
 
 - Baixe este **[Arquivo1](https://drive.google.com/file/d/10fKyLZIhMg06s11sSgZxPEZcGwxYjDXL/view?usp=sharing)** e adicione a pasta **src** do seu projeto.
 - Baixe também este **[Arquivo2](https://drive.google.com/file/d/1mNhPiZ5KrA6CBYjB0EoRvu60wp0PamC5/view?usp=sharing)** e adicione a pasta **src** do seu projeto.
