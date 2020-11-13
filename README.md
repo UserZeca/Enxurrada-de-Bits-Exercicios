@@ -27,30 +27,31 @@ Pois bem, observe o seguinte exemplo:
    let nome2 = 'Marcus';
    let nome3 = 'Carolina';
    let nome4 = 'João';
+   let nome5 = 'Diegão';
 ~~~
 O exemplo acima, nos mostra a declaração de 4 variáveis, as quais são nomes de pessoas, ou seja um texto(string). Bem, imagine que agora eu tenha que ter 150 nomes, logo seguindo a idéia que fizemos acima deveriamos declarar 150 variáveis, mas isso é viável?! Se tivessemos 1000 variáveis, 2000, 3000, isso não iria gerar uma quantidade gigantescas de variáveis?! Então, com o fito de resolver esse problema, o que poderiamos fazer é algo como o exemplo abaixo:
 ~~~  
-   let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];  
+   let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
 ~~~
 Bom, no exemplo acima, o que fizemos foi agrupar os dados em uma única variável. Específicamente o que estamos fazendo é uma **Lista**(Array), uma lista é um tipo do javascript que agrupa diferentes tipos de dados, organizados por posições. Pra visualizar essa lista completa podemos simplesmente utilizar o console.log:
 ~~~  
-   let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];  
+   let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];    
    console.log(nomes);
 ~~~
 Entretanto, quando utilizamos somente nome da lista, como fizemos no exemplo acima, estaremos utilizando toda a lista. Mas e se eu quiser somente o nome de 'Maria' ?! Então, como foi dito antes, os dados dentro da lista são organizados por posições, e isso permite acessar diferentes posições individualmente. Por exemplo:
 ~~~  
-   let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];  
+   let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];    
    console.log(nomes[0]);
    console.log(nomes[3]);
 ~~~
-Observando o exemplo acima, temos uma diferença do que estávamos acostumados, o que estamos fazendo agora é utilizar colchetes '[]' e dentro deles colocarmos um número. Mas o que isso significa?! Bom, quando utilizamos isso, juntamente com o nome da lista, conseguimos acessar as posições individuais da lista. Essas posições começam sempre com 0, vão até a quantidade de elementos - 1 , ou seja no exemplo acima temos 4 elementos na lista, porém as posições dos elementos vão de 0 a 3.  
+Observando o exemplo acima, temos uma diferença do que estávamos acostumados, o que estamos fazendo agora é utilizar colchetes '[]' e dentro deles colocarmos um número. Mas o que isso significa?! Bom, quando utilizamos isso, juntamente com o nome da lista, conseguimos acessar as posições individuais da lista. Essas posições começam sempre com 0, vão até a quantidade de elementos - 1 , ou seja no exemplo acima temos 5 elementos na lista, porém as posições dos elementos vão de 0 a 4.  
 Caso você execute o exemplo acima, você irá perceber que os nomes 'Maria' e 'João', serão exibido, isso porque são 0 e 3, as respectivas posições dos elementos 'Maria' e 'João'.
 **Obs.: Teste os exemplos acima**
 
 - **Loops** e **Lista** : Agora iremos entender como combinar um loop e uma lista, e porque isso é importante. Observe o exemplo abaixo:
 
 ~~~  
-   let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];  
+   let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];    
    console.log(`Nome: ${nomes[0]}`);
    console.log(`Nome: ${nomes[1]}`);
    console.log(`Nome: ${nomes[2]}`);
@@ -60,7 +61,7 @@ Caso você execute o exemplo acima, você irá perceber que os nomes 'Maria' e '
 No exemplo acima, fazemos uma interpolação com cada um dos elementos da lista, porém dessa forma caimos no mesmo problema de antes, e se tivessemos 1000 elementos, isso seria viável? Bom, neste ponto é que entram os loops, como temos uma serie de retição que é feita pelo loop, podemos tirar proveito disso. Mas como fazemos isso?! Pois bem,sabemos que um loop deve sempre ter um ponto de início e outro de fim, logo se utilizassemos o exemplo acima, poderíamos fazer um loop que irá rodar de 0 a 3. Entretanto, é bom saber que nem sempre saberemos o tamanho de um lista, pois nem sempre esse valor é estático(fixo), pra resolver esse problema as listas em javascript possuem uma propriedade chamada 'length' que possui o tamanho atual da lista, e que pode ser acessado por 'nomeDaLista.length'. Enfim, levando isso em consideração, podemos então fazer como exemplo abaixo:
 
 ~~~  
-    let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];  
+    let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
     for(let i=0; i< nomes.length; i++){
         console.log(`Nome: ${nomes[i]}`);
     }
@@ -109,8 +110,8 @@ Perceba dentro do corpo da nossa página, temos uma div com um id "caixa", e ess
 
 Pois bem, neste nosso exemplo vamos utilizar duas listas:
 ~~~
- let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 ~~~
 
 Essas duas listas irão ser adicionadas ao nosso HTML, de forma que se torne uma lista não ordenada (ul). Pra isso primeiro vamos levar em consideração que as listas são "correspondentes", ou seja 'Maria' é da turma '302', assim como 'Marcus' é da Turma '303', e por aí em diante.
@@ -118,12 +119,12 @@ Essas duas listas irão ser adicionadas ao nosso HTML, de forma que se torne uma
 Partindo para parte de adicionar o HTML através do Javascript, vamos utilizar aquela mesma estratégia de loops junto com listas:
 
 ~~~
- let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
-for(let i = 0; i < nomes.length; i++){
+ for(let i = 0; i < nomes.length; i++){
    // O algoritmo virá aqui
-}
+ }
 ~~~
 
 Pois bem, a ideia aqui é adicionar uma lista não ordenada dentro da outra, por exemplo:
@@ -142,45 +143,45 @@ Pois bem, a ideia aqui é adicionar uma lista não ordenada dentro da outra, por
 Perceba que temos uma lista dentro da outra, ou seja a primeira 'ul' terá dois filhos, uma 'li' e uma 'ul', e a partir disso vamos contruir então nosso código. Bom primeiro vamos criar a lista não ordenada(ul), dentro do loop:
 
 ~~~
-let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
-for(let i = 0; i < nomes.length; i++){
+ for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
-} 
+ } 
 ~~~
 
 Em seguida, vamos criar nosso elemento li:
 
 ~~~
-let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
-for(let i = 0; i < nomes.length; i++){
+ for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
    let elementoLista = document.createElement('li'); 
-} 
+ } 
 ~~~
 
 Agora vamos criar conteúdo pra o elementoLista, no nosso caso iremos criar um texto, por isso vamos utilizar o método 'createTextNode':
 
 ~~~~
 
-let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
-for(let i = 0; i < nomes.length; i++){
+ for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
    let elementoLista = document.createElement('li'); 
    let conteudoElementoLista = document.createTextNode(lista[i]);
-} 
+ } 
 ~~~~
 
 Depois de criar cada elemento, devemos agora relacioná-los, e nesse caso devemos adicionar o conteudoElementoLista ao elementoLista, e adicionar o elementoLista a lista. Pra isso, vamos utilizar o método appendChild, que adiciona um 'filho' a um elemento:
 
 ~~~~
-let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
 for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
@@ -202,8 +203,8 @@ Perceba que agora criamos a seguinte estrutura:
 Entretanto, ainda falta a sub lista que devemos adicionar. Pra adicionar ela repetimos o mesmo processo que fizemos com a lista(primeira ul):
 
 ~~~~
-let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
 for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
@@ -226,8 +227,8 @@ for(let i = 0; i < nomes.length; i++){
 Perceba que a sub lista foi criada acima, porém ainda não relacionamos a sub lista(segunda ul) com a lista(primeira ul), e é exatamente o que faremos agora:
 
 ~~~~
-let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
 for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
@@ -260,8 +261,8 @@ Feito isso perceba que a estrutura que desejavamos foi feita, porém, nós ainda
 Bem, com isso em mente vamos então realizar a inserção:
 
 ~~~~
-let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
 for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
@@ -287,8 +288,8 @@ for(let i = 0; i < nomes.length; i++){
 Agora o que nos falta é adicionar o CSS, para isso vamos fazer o mesmo processo de criar e adicionar algo a o elemento, porém aqui iremos criar um atributo, no nosso caso uma 'class', e depois disso adicionar algo a ele, que no nosso caso é uma das classes que criamos no CSS: 
 
 ~~~
-let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
 for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
@@ -320,8 +321,8 @@ Perceba que criamos um estilo, e setamos o valor dele para uma das classes que c
 Bom, agora é só replicar o processo para o conteudoElementoSubLista, criando então um estilo pra ele, atribuindo uma classe a ele, e por fim adicionando de fato o estilo nele:
 
 ~~~
-let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
- let turmas = ['302', '303', '305, '303'];
+ let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+ let turmas = ['302', '303', '305, '303', '304'];
 
 for(let i = 0; i < nomes.length; i++){
    let lista = document.createElement('ul'); 
@@ -369,8 +370,8 @@ Então, esse erro está ocorrendo porque o javascript não conseguiu achar o id 
 ~~~
 window.onload = function() {
 
-   let nomes = ['Maria', 'Marcus', 'Carolina', 'João'];
-    let turmas = ['302', '303', '305, '303'];
+    let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
+    let turmas = ['302', '303', '305, '303', '304'];
 
    for(let i = 0; i < nomes.length; i++){
       let lista = document.createElement('ul'); 
