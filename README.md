@@ -393,13 +393,11 @@ window.onload = function() {
 
       let estilo1 = document.createAttribute('class');
       estilo1.value = "lista";
-     //console.log(conteudoElementoLista);
       elementoLista.setAttributeNode(estilo1);
       
       let estilo2 = document.createAttribute('class');
       estilo2.value = "sub-lista";
       elementoSubLista.setAttributeNode(estilo2);
-      console.log(conteudoElementoSubLista);
 
       document.getElementById('caixa').insertAdjacentElement('beforeend', lista);
 
