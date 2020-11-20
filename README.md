@@ -310,15 +310,15 @@ for(let i = 0; i < nomes.length; i++){
    
    let estilo1 = document.createAttribute('class');
    estilo1.value = "lista";
-   conteudoElementoLista.setAttributeNode(estilo1);
+   elementoLista.setAttributeNode(estilo1);
    
    document.getElementById('caixa').insertAdjacentElement('beforeend', lista);
 } 
 ~~~~
 
-Perceba que criamos um estilo, e setamos o valor dele para uma das classes que criamos no CSS, e por fim adicionamos ela ao conteudoElementoLista, que representa o primeiro 'li' da lista(primeiro ul). 
+Perceba que criamos um estilo, e setamos o valor dele para uma das classes que criamos no CSS, e por fim adicionamos ela ao elementoLista, que representa o primeiro 'li' da lista(primeiro ul). 
 
-Bom, agora é só replicar o processo para o conteudoElementoSubLista, criando então um estilo pra ele, atribuindo uma classe a ele, e por fim adicionando de fato o estilo nele:
+Bom, agora é só replicar o processo para o elementoSubLista, criando então um estilo pra ele, atribuindo uma classe a ele, e por fim adicionando de fato o estilo nele:
 
 ~~~
  let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
@@ -343,11 +343,11 @@ for(let i = 0; i < nomes.length; i++){
    
    let estilo1 = document.createAttribute('class');
    estilo1.value = "lista";
-   conteudoElementoLista.setAttributeNode(estilo1);
+   elementoLista.setAttributeNode(estilo1);
    
    let estilo2 = document.createAttribute('class');
    estilo1.value = "sub-lista";
-   conteudoElementoSubLista.setAttributeNode(estilo2);
+   elementoSubLista.setAttributeNode(estilo2);
    
    document.getElementById('caixa').insertAdjacentElement('beforeend', lista);
  
@@ -368,35 +368,38 @@ Então, esse erro está ocorrendo porque o javascript não conseguiu achar o id 
 
 
 ~~~
+
 window.onload = function() {
 
     let nomes = ['Maria', 'Marcus', 'Carolina', 'João', 'Diegão'];  
-    let turmas = ['302', '303', '305, '303', '304'];
+    let turmas = ['302', '303', '305', '303', '304'];
 
    for(let i = 0; i < nomes.length; i++){
       let lista = document.createElement('ul'); 
       let elementoLista = document.createElement('li'); 
       let conteudoElementoLista = document.createTextNode(nomes[i]);
 
-      elementoLista.appendChild(counteudoElementoLista);
+      elementoLista.appendChild(conteudoElementoLista);
       lista.appendChild(elementoLista);
 
       let subLista = document.createElement('ul'); 
       let elementoSubLista = document.createElement('li'); 
       let conteudoElementoSubLista = document.createTextNode(turmas[i]);
 
-      elementoSubLista.appendChild(counteudoElementoSubLista);
+      elementoSubLista.appendChild(conteudoElementoSubLista);
       subLista.appendChild(elementoSubLista);
 
       lista.appendChild(subLista);
 
-      let estilo1 = document.createAttribute('id');
+      let estilo1 = document.createAttribute('class');
       estilo1.value = "lista";
-      conteudoElementoLista.setAttributeNode(estilo1);
-
-      let estilo2 = document.createAttribute('id');
-      estilo1.value = "sub-lista";
-      conteudoElementoSubLista.setAttributeNode(estilo2);
+     //console.log(conteudoElementoLista);
+      elementoLista.setAttributeNode(estilo1);
+      
+      let estilo2 = document.createAttribute('class');
+      estilo2.value = "sub-lista";
+      elementoSubLista.setAttributeNode(estilo2);
+      console.log(conteudoElementoSubLista);
 
       document.getElementById('caixa').insertAdjacentElement('beforeend', lista);
 
