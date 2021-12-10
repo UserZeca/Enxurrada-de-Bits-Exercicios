@@ -447,7 +447,7 @@ Como foi dito, este arquivo está na internet, mas o que este arquivo é?! Bom, 
       Bart Simpson      Oldest child and only son of Homer and Marge; brother of Lisa and Maggie
       ...               ...
 ~~~
-**obs.: Omitir o restante das colunas, pois ela não serão utilizadas**
+**obs.: Omitir o restante das colunas, pois elas não serão utilizadas**
 
 Bom, acima podemos ver que os arquivos csv são organizados de forma similar a uma tabela e exatamente esse conceito que será levado em consideração para o nosso algoritmo.
 
