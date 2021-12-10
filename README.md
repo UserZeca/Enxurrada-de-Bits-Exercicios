@@ -458,7 +458,7 @@ Esse arquivo vai tratar de retirar os dados da internet(específicamente do repo
 ![Programa base atividade](https://github.com/UserZeca/Enxurrada-de-Bits-Exercicios/blob/master/assertsDoReadme/img/programaBaseJSHTMLCSS.png)
           
 
-**Obs: Não se preucupe com as palavras reservadas *'await'* e *'async'*, elas são necessárias pra outra parte do script, com a qual você não irá trabalhar diretamente**
+**Obs: Não se preocupe com as palavras reservadas *'await'* e *'async'*, elas são necessárias pra outra parte do script, com a qual você não irá trabalhar diretamente**
 
 Perceba que as variáveis de lista já foram criadas pra você, a sua missão agora é transformar essas duas listas, em uma lista dentro da outra, como no exemplo onde relembramos como adicionar HTML e CSS com javascript. 
 
@@ -481,8 +481,7 @@ Perceba que as variáveis de lista já foram criadas pra você, a sua missão ag
 #### O que significa windown.onload ?
 + windown é o elemento que representa a janela da nossa página, já onload é o evento que diz quando essa janela foi carregada </br>
 [Link para mais informações](https://developer.mozilla.org/pt-BR/docs/Web/API/GlobalEventHandlers/onload)
-
-
+ 
 #### O que são métodos em javascript?
 + [Link para mais informações](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Definicoes_metodos)
 
