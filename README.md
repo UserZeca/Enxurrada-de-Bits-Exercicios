@@ -363,7 +363,7 @@ Se você chegou até aqui, e seguiu exatamente os passos anteriores, verá que s
 
 Então, esse erro está ocorrendo porque o javascript não conseguiu achar o id que você passou, "uai" mas a gente não criou tudo certinho, porque o javascript não tá achando esse id no DOM? Bem, o motivo desse erro é que o javascript é carregado antes da página toda carregar, ou seja antes da árvore de elementos do DOM, ser preechida por completo, em outras palavras ele não consegue achar o elemento porque ele está procurando antes do tempo. Pra resolver isso, nos utilizamos um evento do javascript chamado onload, que só irá executar quando a 'window' carregar por completo, e esse evento em questão irá executar uma função anônima(sem nome), e dentro dessa função anônima que devemos chamar a fazer nosso algoritmo.
 
-**Obs.: É importante lembrar, que podemos construir funções fora do window.onload, mas devemos sempre chamá-las dentro da função que irá ser passada pra windown.onload.**  
+**Obs.: É importante lembrar, que podemos construir funções fora do window.onload, mas devemos sempre chamá-las dentro da função que irá ser passada pra window.onload.**  
 **Obs.: () => { } é similar a function(){}, ambas são funções anônimas.**
 
 
